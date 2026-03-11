@@ -2,7 +2,6 @@ package com.pybt58.mysticalmorecrops;
 
 import com.blakebr0.cucumber.helper.ConfigHelper;
 import com.blakebr0.mysticalagriculture.MysticalAgriculture;
-import com.blakebr0.mysticalagriculture.lib.ModCrops;
 import com.mojang.logging.LogUtils;
 import com.pybt58.mysticalmorecrops.config.ModConfigs;
 import com.pybt58.mysticalmorecrops.datagen.ModDataGenerators;

@@ -17,7 +17,7 @@ public final class ModMobSoulTypes {
     // mobのセットを定義
     // private static final Set<ResourceLocation> FISH_IDS = Sets.newHashSet(ResourceLocation.parse("minecraft:cod"), ResourceLocation.parse("minecraft:salmon"), ResourceLocation.parse("minecraft:tropical_fish"), ResourceLocation.parse("minecraft:pufferfish"));
     // 条件に応じてセット変更 下の例では、"modname"モッドがロードされるなら、modFishをFISH_IDSセットに追加している
-    // static{ if(ModList.get().isLoaded("modname")) { addmob(FISH_IDS, "modname:modFish") }}
+    // static{ if(ModList.get().isLoaded("modname")) { add(FISH_IDS, "modname:modFish") }}
     // ソウルタイプ”魚”の定義
     // public static final MobSoulType FISH = new MobSoulType(MysticalMoreCrops.resource("fish"), FISH_IDS, "fish", 6, 12691306);
     private static final Set<ResourceLocation> ALLAY_IDS = Sets.newHashSet(ResourceLocation.parse("minecraft:allay"), ResourceLocation.parse("minecraft:vex"));

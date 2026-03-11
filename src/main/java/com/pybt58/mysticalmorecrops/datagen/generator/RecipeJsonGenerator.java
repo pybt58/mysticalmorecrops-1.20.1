@@ -6,13 +6,11 @@ import com.blakebr0.mysticalagriculture.data.recipe.ReprocessorRecipeBuilder;
 import com.blakebr0.mysticalagriculture.registry.CropRegistry;
 import com.pybt58.mysticalmorecrops.MysticalMoreCrops;
 import com.pybt58.mysticalmorecrops.lib.ModCrops;
-import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.FinishedRecipe;
 import net.minecraft.data.recipes.RecipeProvider;
 import net.minecraft.resources.ResourceLocation;
 
-import java.util.concurrent.CompletableFuture;
 import java.util.function.Consumer;
 
 public class RecipeJsonGenerator extends RecipeProvider {

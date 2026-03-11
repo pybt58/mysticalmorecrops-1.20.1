@@ -12,7 +12,7 @@ public final class ModDataGenerators {
         var generator = event.getGenerator();
         var packOutput = generator.getPackOutput();
         var existingFileHelper = event.getExistingFileHelper();
-        var lookupProvider = event.getLookupProvider();
+        //var lookupProvider = event.getLookupProvider();
 
         generator.addProvider(event.includeClient(), new BlockModelJsonGeneratorForMA(packOutput, existingFileHelper));
         generator.addProvider(event.includeClient(), new ItemModelJsonGeneratorForMA(packOutput, existingFileHelper));
