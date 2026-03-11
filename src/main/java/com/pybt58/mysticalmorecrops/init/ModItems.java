@@ -14,7 +14,7 @@ public final class ModItems {
     static {
         ModBlocks.BLOCK_ITEMS.forEach(REGISTRY::register);
     }
-    public static final RegistryObject<Item> EVIL_INTENTION = register("evil_intention");//todo 画像差し替え
+    public static final RegistryObject<Item> EVIL_INTENTION = register("evil_intention");
     public static final RegistryObject<Item> BLANK_EGG = register("blank_egg");
 
     private static RegistryObject<Item> register(String name) {

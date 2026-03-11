@@ -13,11 +13,11 @@ public final class ModMobSoulTypes {
     // 新しいMobSoulTypeの定義と登録
     // mobのResourceLocationのセット 共通のソウルタイプを得られるmobを複数設定する場合に必要
     // ロードするmodに合わせて、空の新しいソウルタイプを定義することも可能
-    // 以下はsoulType魚の例
-    // mobのセットを定義
-    // private static final Set<ResourceLocation> FISH_IDS = Sets.newHashSet(ResourceLocation.parse("minecraft:cod"), ResourceLocation.parse("minecraft:salmon"), ResourceLocation.parse("minecraft:tropical_fish"), ResourceLocation.parse("minecraft:pufferfish"));
-    // 条件に応じてセット変更 下の例では、"modname"モッドがロードされるなら、modFishをFISH_IDSセットに追加している
-    // static{ if(ModList.get().isLoaded("modname")) { add(FISH_IDS, "modname:modFish") }}
+    // 以下は "examplemod:ex1-1"と"examplemod:ex1-2"をResourceLocationとするモブのMobSoulTypeを定義する例
+    //
+    // mobのSetsを定義
+    //private static final Set<ResourceLocation> EXAMPLEMOB_IDS = Sets.newHashSet(ResourceLocation.parse("examplemod:ex1-1"), ResourceLocation.parse("examplemod:ex1-2"));
+
     // ソウルタイプ”魚”の定義
     // public static final MobSoulType FISH = new MobSoulType(MysticalMoreCrops.resource("fish"), FISH_IDS, "fish", 6, 12691306);
     private static final Set<ResourceLocation> ALLAY_IDS = Sets.newHashSet(ResourceLocation.parse("minecraft:allay"), ResourceLocation.parse("minecraft:vex"));
@@ -37,16 +37,23 @@ public final class ModMobSoulTypes {
     private static final Set<ResourceLocation> STRIDER_IDS = Sets.newHashSet(ResourceLocation.parse("minecraft:strider"));
     private static final Set<ResourceLocation> WOLF_IDS = Sets.newHashSet(ResourceLocation.parse("minecraft:wolf"));
     private static final Set<ResourceLocation> EVIL_IDS = Sets.newHashSet();// 村人を倒してもHUMANは手に入らないし、普通のイリジャー系を倒してもEVILは手に入らない
-    //private static final Set<ResourceLocation> GRIMOIRE_IDS = Sets.newHashSet();
-    /*
-    static {
-        if (ModList.get().isLoaded("grimoireofgaia")) {
-            CAT_IDS.addAll(Set.of(ResourceLocation.parse("grimoireofgaia:werecat"), ・・・));
-            WOLF_IDS.addAll(Set.of(ResourceLocation.parse("grimoireofgaia:kobold"), ResourceLocation.parse("grimoireofgaia:anubis")));
-            ...
-        }
-    }
-    */
+
+    // ここで、併用するmodに応じてSetsは変更できる。 下の例では、"examplemod2"をmodidとするmodがロードされるなら、"examplemod2:ex2-1"を追加するようにしている
+    //
+    //static{
+    //      if(ModList.get().isLoaded("examplemod2")) {
+    //              EXAMPLEMOB_IDS.add( ResourceLocation.parse("examplemod2:ex2-1"));
+    //      }
+    //}
+    //
+    // 複数追加する場合は、メゾットを addAll() に変更し、引数を Sets 型にする。"examplemod:ex1-3"をさらに追加する場合
+    //
+    //static{
+    //      if(ModList.get().isLoaded("examplemod2")) {
+    //              EXAMPLEMOB_IDS.addAll( Sets.newHashSet(ResourceLocation.parse("examplemod2:ex2-1"), ResourceLocation.parse("examplemod:ex1-3")));
+    //      }
+    //
+    // もちろんSetsから要素を削除することもできる。肝心なのは、この段階でMobSoulTypeに対応するMobの集合の情報を確定させること。例の場合は EXAMPLE_IDS に対応する全てのMobのResourceLocationを過不足なく格納させること
 
     public static final MobSoulType ALLAY = new MobSoulType(MysticalMoreCrops.resource("allay"), ALLAY_IDS, "allay", 8 , 0x3DE0F7);
     public static final MobSoulType AMPHIBIAN = new MobSoulType(MysticalMoreCrops.resource("amphibian"), AMPHIBIAN_IDS, "amphibian", 6, 0x8690F5);
@@ -65,8 +72,12 @@ public final class ModMobSoulTypes {
     public static final MobSoulType STRIDER = new MobSoulType(MysticalMoreCrops.resource("strider"), STRIDER_IDS, "strider", 6, 0x9C3436);
     public static final MobSoulType WOLF = new MobSoulType(MysticalMoreCrops.resource("wolf"), WOLF_IDS, "wolf", 8, 0xDDDADB);
     public static final MobSoulType EVIL = new MobSoulType(MysticalMoreCrops.resource("evil"), EVIL_IDS, "evil", 6, 0x2A4455);
-    //public static final MobSoulType GRIMOIRE = new MobSoulType(MysticalMoreCrops.resource("grimoire"), GRIMOIRE_IDS, "grimoire", 6, -1);
-    //...
+
+    // ここで新しいMobSoulTypeを定義する。パラメータはMobSoulTypeのResourceLocationのpath, 先に定義したMobのResourceLocationのSets, (多分SoulJarのtooltip用の)翻訳キー, SoulJarを満タンにするのに必要なSoulの量、SoulJar内のSoulの色
+    // 特に理由がない場合はpathと翻訳キーは同じでよい
+    // 以下は MobSoulType.EXAMPLEMOB_CROP を定義する例である。SoulJar満タンに必要なSoulの量を6.00,色はRGBで(127, 127, 127)
+    //
+    //public static final MobSoulType EXAMPLEMOB_CROP = new MobSoulType(MysticalMoreCrops.resource("example"), EXAMPLEMOB_IDS, "example", 6, 0x7F8081);
 
     // ↑ここまで新たなmobSoulTypeの作成 ↓ここから既存のmobSoulTypeの改変
     // MobSoulTypeの改変用Map MobSoulTypeのResourceLocation:そのソウルタイプの対象に追加するモブのResourceLocationのリスト

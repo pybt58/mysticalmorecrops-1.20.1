@@ -39,8 +39,15 @@ public final class ModCrops {
     public static final Crop STRIDER = new Crop(MysticalMoreCrops.resource("strider"), CropTier.THREE, CropType.MOB, LazyIngredient.item("mysticalagriculture:soul_jar", MobSoulUtils.makeTag(ModMobSoulTypes.STRIDER)));
     public static final Crop WOLF = new Crop(MysticalMoreCrops.resource("wolf"), CropTier.TWO, CropType.MOB, LazyIngredient.item("mysticalagriculture:soul_jar", MobSoulUtils.makeTag(ModMobSoulTypes.WOLF)));
     public static final Crop EVIL = new Crop(MysticalMoreCrops.resource("evil"), CropTier.THREE, CropType.MOB, LazyIngredient.item("mysticalagriculture:soul_jar", MobSoulUtils.makeTag(ModMobSoulTypes.EVIL)));
-    //public static final Crop GRIMOIRE = new Crop(MysticalMoreCrops.resource("grimoire"), CropTier.THREE, CropType.MOB, LazyIngredient.item("mysticalagriculture:soul_jar", MobSoulUtils.makeTag(ModMobSoulTypes.GRIMOIRE)));
-    //...
+
+    // 以下は EXAMPLE Crop　(パラメータ　Tier3, ResourceLocation "mysticalmorecrops:example", CropType MOB, 種の作成に必要な材料に MobSoulTypes.EXAMPLE_SOUL が入った SoulJar）を登録する例
+    // EXAMPLE_SOULのパラメータは　ModMobSoulTypes.java　で設定する
+    //
+    //public static final Crop EXAMPLE = new Crop(MysticalMoreCrops.resource("example"), CropTier.THREE, CropType.MOB, LazyIngredient.item("mysticalagriculture:soul_jar", MobSoulUtils.makeTag(ModMobSoulTypes.EXAMPLE_SOUL)));
+    //
+    // Mystical AgricultureのCropではTierが設定されている。Tier1から5まで存在し、数字が大きいほど希少なリソースを栽培できる。たとえば木や土はTier1で、ダイヤモンドやエメラルドはTier5である。今回の例ではTier3にした。
+    // CropTypeは作物ブロックの茎の見た目を決定する。CropType.RESOURCE, CropType.MOB の二種類のみである。見た目以外の挙動については、特に違いはない。既存のCropに倣うなら、Soulに関係ないものについてはRESOURCEを、関係あるものはMOBを指定することになる。
+    // LazyIngredient.item() ではそのCropの種を作成するのに必要なアイテムのResourceLocationを指定する。Soulに関連するCropの場合、第一引数に "mysticalagriculture:soul_jar" ,第二引数に MobSoulUtils.makeTag(ModMobSoulTypes.???) と指定する。
 
     public static void onRegisterCrops(ICropRegistry registry) {
         SUPREMIUM.getTextures().setEssenceTexture(MysticalMoreCrops.maResource("item/supremium_essence"));
@@ -72,12 +79,31 @@ public final class ModCrops {
         registry.register(STRIDER);
         registry.register(WOLF);
         registry.register(EVIL);
-        //registry.register(withRequiredMods(GRIMOIRE, ...));
-        //...
+
+        // 上で定義したCropをここで登録させる。もし特定のModを併用している環境下のみで有効にしたい場合は、withRequiredModsメゾットを利用する
+        // 以下は、EXAMPLE Crop を、modidが”examplemod”のmodを併用している環境下のみで有効にしたい場合の例である
+        //
+        //registry.register(withRequiredMods(EXAMPLE, "examplemod"));
+        //
+        // なお、withRequiredModsメゾットの引数のmodidは複数指定できる。複数のmodが全て入っている場合にのみ有効にしたい場合に。
     }
 
     public static void onPostRegisterCrops(ICropRegistry registry) {
         SUPREMIUM.setCruxBlock(com.blakebr0.mysticalagriculture.init.ModBlocks.AWAKENED_SUPREMIUM_GEMSTONE_BLOCK);
+        PROSPERITY.setCruxBlock(com.blakebr0.mysticalagriculture.init.ModBlocks.AWAKENED_SUPREMIUM_INGOT_BLOCK);
+
+        // ここではCropを登録した後で行う処理を書く。Mystical Agriculture ではTierとCropTypeの登録を行っているが、このmodでは専らCropのCruxの設定に使う
+        // 以下は、EXAMPLE Crop の核に、ダイヤモンドブロックを指定する場合の例である
+        //
+        //EXAMPLE.setCruxBlock(() -> net.minecraft.world.level.block.Blocks.DIAMOND_BLOCK);
+        //
+        // この場合、EXAMPLEのCropを栽培するには、植えられた耕地ブロックの直下にダイヤモンドブロックがなければならなくなり、その情報をJEIで確認できるようになる
+        // setCrux() メゾットの引数は　Supplier<Block> である。modで定義された、RegistryObject<Block>型変数ならばそのままでよい。
+        // しかし、バニラのBlocksクラス内で定義された変数を利用したい場合は、変数の型がBlockなので、Supplierの形式にする必要がある
+
+        // MobSoulTypeの定義が終わっている、または必要ないなら、これでコードの追加は完了。あとはレシピjsonファイルとアセットの追加である。
+        // レシピjsonファイルの追加先は、resource/data/mysticalmorecrops/recipes フォルダ内ならどこでも構わないが、混乱を避けるために適切な場所(例えばスポーンエッグ作成レシピならspawneggフォルダ内)に置くほうが良い
+        // 注意:soulのResourceLocationのnamespaceはmysticalmorecropsだが、エッセンス、種のnamespaceは"mysticalagriculture"である
     }
 
     private static Crop withRequiredMods(Crop crop, String... mods) {
