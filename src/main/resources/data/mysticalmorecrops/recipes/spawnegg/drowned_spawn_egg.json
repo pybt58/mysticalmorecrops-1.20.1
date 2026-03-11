@@ -1,0 +1,45 @@
+{
+  "type": "mysticalagriculture:infusion",
+  "input": {
+    "item": "mysticalmorecrops:blank_egg"
+  },
+  "conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:zombie"
+    },
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:water"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "minecraft:dirt"
+    },
+    {
+      "item": "mysticalagriculture:zombie_essence"
+    },
+    {
+      "item": "mysticalagriculture:experience_droplet"
+    },
+    {
+      "item": "mysticalagriculture:water_essence"
+    },
+    {
+      "item": "minecraft:dirt"
+    },
+    {
+      "item": "mysticalagriculture:zombie_essence"
+    },
+    {
+      "item": "mysticalagriculture:experience_droplet"
+    },
+    {
+      "item": "mysticalagriculture:water_essence"
+    }
+  ],
+  "result": {
+    "item": "minecraft:drowned_spawn_egg"
+  }
+}

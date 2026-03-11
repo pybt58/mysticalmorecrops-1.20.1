@@ -1,0 +1,39 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    " S ",
+    "GEG",
+    " I "
+  ],
+  "key": {
+    "E": [
+      {
+        "item": "minecraft:egg"
+      },
+      {
+        "item": "minecraft:sniffer_egg"
+      },
+      {
+        "item": "minecraft:turtle_egg"
+      }
+    ],
+    "G": {
+      "item": "mysticalagriculture:soul_glass"
+    },
+    "S":[
+      {
+        "item": "minecraft:soul_sand"
+      },
+      {
+        "item": "minecraft:soul_soil"
+      }
+    ],
+    "I": {
+      "item": "mysticalagriculture:soulium_ingot"
+    }
+  },
+  "result": {
+    "count": 1,
+    "item": "mysticalmorecrops:blank_egg"
+  }
+}

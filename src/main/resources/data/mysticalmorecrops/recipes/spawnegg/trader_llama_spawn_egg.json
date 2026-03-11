@@ -1,0 +1,41 @@
+{
+  "type": "mysticalagriculture:infusion",
+  "input": {
+    "item": "mysticalmorecrops:blank_egg"
+  },
+  "conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalmorecrops:llama"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "minecraft:emerald"
+    },
+    {
+      "item": "mysticalagriculture:llama_essence"
+    },
+    {
+      "item": "mysticalagriculture:experience_droplet"
+    },
+    {
+      "item": "mysticalagriculture:llama_essence"
+    },
+    {
+      "item": "minecraft:emerald"
+    },
+    {
+      "item": "mysticalagriculture:llama_essence"
+    },
+    {
+      "item": "mysticalagriculture:experience_droplet"
+    },
+    {
+      "item": "mysticalagriculture:llama_essence"
+    }
+  ],
+  "result": {
+    "item": "minecraft:trader_llama_spawn_egg"
+  }
+}

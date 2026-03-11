@@ -1,0 +1,45 @@
+{
+  "type": "mysticalagriculture:infusion",
+  "input": {
+    "item": "mysticalmorecrops:blank_egg"
+  },
+  "conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalmorecrops:horse"
+    },
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:zombie"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "minecraft:saddle"
+    },
+    {
+      "item": "mysticalagriculture:horse_essence"
+    },
+    {
+      "item": "mysticalagriculture:experience_droplet"
+    },
+    {
+      "item": "mysticalagriculture:zombie_essence"
+    },
+    {
+      "item": "minecraft:saddle"
+    },
+    {
+      "item": "mysticalagriculture:horse_essence"
+    },
+    {
+      "item": "mysticalagriculture:experience_droplet"
+    },
+    {
+      "item": "mysticalagriculture:zombie_essence"
+    }
+  ],
+  "result": {
+    "item": "minecraft:zombie_horse_spawn_egg"
+  }
+}

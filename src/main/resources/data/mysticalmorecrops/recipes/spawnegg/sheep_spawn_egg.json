@@ -1,0 +1,41 @@
+{
+  "type": "mysticalagriculture:infusion",
+  "input": {
+    "item": "mysticalmorecrops:blank_egg"
+  },
+  "conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:sheep"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "minecraft:grass_block"
+    },
+    {
+      "item": "mysticalagriculture:sheep_essence"
+    },
+    {
+      "item": "mysticalagriculture:experience_droplet"
+    },
+    {
+      "item": "mysticalagriculture:sheep_essence"
+    },
+    {
+      "item": "minecraft:grass_block"
+    },
+    {
+      "item": "mysticalagriculture:sheep_essence"
+    },
+    {
+      "item": "mysticalagriculture:experience_droplet"
+    },
+    {
+      "item": "mysticalagriculture:sheep_essence"
+    }
+  ],
+  "result": {
+    "item": "minecraft:sheep_spawn_egg"
+  }
+}

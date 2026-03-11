@@ -1,0 +1,45 @@
+{
+  "type": "mysticalagriculture:infusion",
+  "input": {
+    "item": "mysticalmorecrops:blank_egg"
+  },
+  "conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:fish"
+    },
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:prismarine"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "minecraft:kelp"
+    },
+    {
+      "item": "mysticalagriculture:fish_essence"
+    },
+    {
+      "item": "mysticalagriculture:experience_droplet"
+    },
+    {
+      "item": "mysticalagriculture:prismarine_essence"
+    },
+    {
+      "item": "minecraft:kelp"
+    },
+    {
+      "item": "mysticalagriculture:fish_essence"
+    },
+    {
+      "item": "mysticalagriculture:experience_droplet"
+    },
+    {
+      "item": "mysticalagriculture:prismarine_essence"
+    }
+  ],
+  "result": {
+    "item": "minecraft:guardian_spawn_egg"
+  }
+}

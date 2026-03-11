@@ -1,0 +1,41 @@
+{
+  "type": "mysticalagriculture:infusion",
+  "input": {
+    "item": "mysticalmorecrops:blank_egg"
+  },
+  "conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalmorecrops:bat"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "minecraft:deepslate"
+    },
+    {
+      "item": "mysticalagriculture:bat_essence"
+    },
+    {
+      "item": "mysticalagriculture:experience_droplet"
+    },
+    {
+      "item": "mysticalagriculture:bat_essence"
+    },
+    {
+      "item": "minecraft:deepslate"
+    },
+    {
+      "item": "mysticalagriculture:bat_essence"
+    },
+    {
+      "item": "mysticalagriculture:experience_droplet"
+    },
+    {
+      "item": "mysticalagriculture:bat_essence"
+    }
+  ],
+  "result": {
+    "item": "minecraft:bat_spawn_egg"
+  }
+}

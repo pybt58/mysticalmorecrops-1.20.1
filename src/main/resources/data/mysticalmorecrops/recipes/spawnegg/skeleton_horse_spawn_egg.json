@@ -1,0 +1,45 @@
+{
+  "type": "mysticalagriculture:infusion",
+  "input": {
+    "item": "mysticalmorecrops:blank_egg"
+  },
+  "conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalmorecrops:horse"
+    },
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:skeleton"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "minecraft:saddle"
+    },
+    {
+      "item": "mysticalagriculture:horse_essence"
+    },
+    {
+      "item": "mysticalagriculture:experience_droplet"
+    },
+    {
+      "item": "mysticalagriculture:skeleton_essence"
+    },
+    {
+      "item": "minecraft:lightning_rod"
+    },
+    {
+      "item": "mysticalagriculture:horse_essence"
+    },
+    {
+      "item": "mysticalagriculture:experience_droplet"
+    },
+    {
+      "item": "mysticalagriculture:skeleton_essence"
+    }
+  ],
+  "result": {
+    "item": "minecraft:skeleton_horse_spawn_egg"
+  }
+}

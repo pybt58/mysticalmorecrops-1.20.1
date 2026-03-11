@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalmorecrops:amphibian"
+    },
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:blaze"
+    },
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:slime"
+    }
+  ],
+  "pattern": [
+    "EBE",
+    "   ",
+    "ESE"
+  ],
+  "key": {
+    "E": {
+      "item": "mysticalagriculture:amphibian_essence"
+    },
+    "B": {
+      "item": "mysticalagriculture:blaze_essence"
+    },
+    "S": {
+      "item": "mysticalagriculture:slime_essence"
+    }
+  },
+  "result": {
+    "item": "minecraft:ochre_froglight",
+    "count": 4
+  }
+}

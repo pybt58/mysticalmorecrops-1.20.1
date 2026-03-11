@@ -1,0 +1,45 @@
+{
+  "type": "mysticalagriculture:infusion",
+  "input": {
+    "item": "mysticalmorecrops:blank_egg"
+  },
+  "conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalmorecrops:human"
+    },
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:emerald"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "minecraft:suspicious_stew"
+    },
+    {
+      "item": "mysticalagriculture:human_essence"
+    },
+    {
+      "item": "minecraft:villager_spawn_egg"
+    },
+    {
+      "item": "mysticalagriculture:emerald_essence"
+    },
+    {
+      "item": "minecraft:suspicious_stew"
+    },
+    {
+      "item": "mysticalagriculture:human_essence"
+    },
+    {
+      "item": "minecraft:villager_spawn_egg"
+    },
+    {
+      "item": "mysticalagriculture:emerald_essence"
+    }
+  ],
+  "result": {
+    "item": "minecraft:wandering_trader_spawn_egg"
+  }
+}

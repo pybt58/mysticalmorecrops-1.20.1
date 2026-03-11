@@ -1,0 +1,10 @@
+{
+  "type": "mysticalagriculture:soul_extraction",
+  "input": {
+    "item": "minecraft:sniffer_egg"
+  },
+  "output": {
+    "type": "mysticalmorecrops:sniffer",
+    "souls": 2
+  }
+}

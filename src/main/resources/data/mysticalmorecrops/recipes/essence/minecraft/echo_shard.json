@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalmorecrops:sculk"
+    }
+  ],
+  "pattern": [
+    "E  ",
+    " E ",
+    "  E"
+  ],
+  "key": {
+    "E": {
+      "item": "mysticalagriculture:sculk_essence"
+    }
+  },
+  "result": {
+    "item": "minecraft:echo_shard",
+    "count": 8
+  }
+}

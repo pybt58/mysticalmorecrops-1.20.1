@@ -1,0 +1,45 @@
+{
+  "type": "mysticalagriculture:infusion",
+  "input": {
+    "item": "mysticalmorecrops:blank_egg"
+  },
+  "conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalmorecrops:evil"
+    },
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalmorecrops:human"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "minecraft:crossbow"
+    },
+    {
+      "item": "mysticalagriculture:human_essence"
+    },
+    {
+      "item": "mysticalagriculture:experience_droplet"
+    },
+    {
+      "item": "mysticalagriculture:evil_essence"
+    },
+    {
+      "item": "minecraft:crossbow"
+    },
+    {
+      "item": "mysticalagriculture:human_essence"
+    },
+    {
+      "item": "mysticalagriculture:experience_droplet"
+    },
+    {
+      "item": "mysticalagriculture:evil_essence"
+    }
+  ],
+  "result": {
+    "item": "minecraft:pillager_spawn_egg"
+  }
+}

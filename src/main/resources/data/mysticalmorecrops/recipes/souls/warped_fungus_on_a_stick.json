@@ -1,0 +1,10 @@
+{
+  "type": "mysticalagriculture:soul_extraction",
+  "input": {
+    "item": "minecraft:warped_fungus_on_a_stick"
+  },
+  "output": {
+    "type": "mysticalmorecrops:strider",
+    "souls": 0.5
+  }
+}

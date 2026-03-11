@@ -1,0 +1,55 @@
+{
+  "type": "mysticalagriculture:infusion",
+  "input": {
+    "item": "mysticalmorecrops:blank_egg"
+  },
+  "conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:fish"
+    },
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:coral"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "item": "minecraft:kelp"
+      },
+      {
+        "item": "minecraft:moss_block"
+      }
+    ],
+    {
+      "item": "mysticalagriculture:fish_essence"
+    },
+    {
+      "item": "mysticalagriculture:experience_droplet"
+    },
+    {
+      "item": "mysticalagriculture:coral_essence"
+    },
+    [
+      {
+        "item": "minecraft:kelp"
+      },
+      {
+        "item": "minecraft:moss_block"
+      }
+    ],
+    {
+      "item": "mysticalagriculture:fish_essence"
+    },
+    {
+      "item": "mysticalagriculture:experience_droplet"
+    },
+    {
+      "item": "mysticalagriculture:coral_essence"
+    }
+  ],
+  "result": {
+    "item": "minecraft:tropical_fish_spawn_egg"
+  }
+}

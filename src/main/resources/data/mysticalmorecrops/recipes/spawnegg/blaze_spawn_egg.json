@@ -1,0 +1,41 @@
+{
+  "type": "mysticalagriculture:infusion",
+  "input": {
+    "item": "mysticalmorecrops:blank_egg"
+  },
+  "conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:blaze"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "minecraft:nether_bricks"
+    },
+    {
+      "item": "mysticalagriculture:blaze_essence"
+    },
+    {
+      "item": "mysticalagriculture:experience_droplet"
+    },
+    {
+      "item": "mysticalagriculture:blaze_essence"
+    },
+    {
+      "item": "minecraft:nether_bricks"
+    },
+    {
+      "item": "mysticalagriculture:blaze_essence"
+    },
+    {
+      "item": "mysticalagriculture:experience_droplet"
+    },
+    {
+      "item": "mysticalagriculture:blaze_essence"
+    }
+  ],
+  "result": {
+    "item": "minecraft:blaze_spawn_egg"
+  }
+}

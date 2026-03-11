@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalmorecrops:sculk"
+    }
+  ],
+  "pattern": [
+    " I ",
+    "EEE",
+    "EJE"
+  ],
+  "key": {
+    "E": {
+      "item": "mysticalagriculture:sculk_essence"
+    },
+    "J": {
+      "item": "minecraft:jukebox"
+    },
+    "I": {
+      "item": "mysticalmorecrops:evil_intention"
+    }
+  },
+  "result": {
+    "item": "minecraft:sculk_shrieker",
+    "count": 2
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "type": "mysticalagriculture:infusion",
+  "input": {
+    "item": "mysticalmorecrops:blank_egg"
+  },
+  "conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:fish"
+    },
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:prismarine"
+    },
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalmorecrops:sponge"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "mysticalagriculture:haste_iii_augment"
+    },
+    {
+      "item": "mysticalagriculture:fish_essence"
+    },
+    {
+      "item": "minecraft:guardian_spawn_egg"
+    },
+    {
+      "item": "mysticalagriculture:prismarine_essence"
+    },
+    {
+      "item": "minecraft:fermented_spider_eye"
+    },
+    {
+      "item": "mysticalagriculture:fish_essence"
+    },
+    {
+      "item": "minecraft:guardian_spawn_egg"
+    },
+    {
+      "item": "mysticalagriculture:sponge_essence"
+    }
+  ],
+  "result": {
+    "item": "minecraft:elder_guardian_spawn_egg"
+  }
+}

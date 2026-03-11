@@ -1,0 +1,49 @@
+{
+  "type": "mysticalagriculture:infusion",
+  "input": {
+    "item": "mysticalmorecrops:blank_egg"
+  },
+  "conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalmorecrops:human"
+    },
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:blaze"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "minecraft:golden_apple"
+    },
+    {
+      "item": "mysticalagriculture:human_essence"
+    },
+    {
+      "item": "minecraft:zombie_villager_spawn_egg"
+    },
+    {
+      "item": "mysticalagriculture:human_essence"
+    },
+    {
+      "type": "forge:partial_nbt",
+      "item": "minecraft:potion",
+      "nbt": {
+        "Potion": "minecraft:weakness"
+      }
+    },
+    {
+      "item": "mysticalagriculture:blaze_essence"
+    },
+    {
+      "item": "minecraft:zombie_villager_spawn_egg"
+    },
+    {
+      "item": "mysticalagriculture:human_essence"
+    }
+  ],
+  "result": {
+    "item": "minecraft:villager_spawn_egg"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "mysticalagriculture:soul_extraction",
+  "input": {
+    "item": "minecraft:frogspawn"
+  },
+  "output": {
+    "type": "mysticalmorecrops:amphibian",
+    "souls": 0.5
+  }
+}

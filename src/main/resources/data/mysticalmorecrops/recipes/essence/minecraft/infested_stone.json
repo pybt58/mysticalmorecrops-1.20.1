@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalmorecrops:mite"
+    },
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:stone"
+    }
+  ],
+  "pattern": [
+    "S S",
+    " M ",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "mysticalagriculture:mite_essence"
+    },
+    "S": {
+      "item": "mysticalagriculture:stone_essence"
+    }
+  },
+  "result": {
+    "item": "minecraft:infested_stone",
+    "count": 2
+  }
+}

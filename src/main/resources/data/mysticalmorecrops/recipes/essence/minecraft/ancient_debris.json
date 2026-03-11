@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalmorecrops:soulstone"
+    },
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:netherite"
+    }
+  ],
+  "pattern": [
+    "EEE",
+    "ENE",
+    "EEE"
+  ],
+  "key": {
+    "E": {
+      "item": "mysticalagriculture:soulstone_essence"
+    },
+    "N": {
+      "item": "mysticalagriculture:netherite_essence"
+    }
+  },
+  "result": {
+    "item": "minecraft:ancient_debris",
+    "count": 1
+  }
+}

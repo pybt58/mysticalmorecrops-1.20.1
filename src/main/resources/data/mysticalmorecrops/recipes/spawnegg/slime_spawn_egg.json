@@ -1,0 +1,51 @@
+{
+  "type": "mysticalagriculture:infusion",
+  "input": {
+    "item": "mysticalmorecrops:blank_egg"
+  },
+  "conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:slime"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "item": "minecraft:lily_pad"
+      },
+      {
+        "item": "minecraft:deepslate"
+      }
+    ],
+    {
+      "item": "mysticalagriculture:slime_essence"
+    },
+    {
+      "item": "mysticalagriculture:experience_droplet"
+    },
+    {
+      "item": "mysticalagriculture:slime_essence"
+    },
+    [
+      {
+        "item": "minecraft:lily_pad"
+      },
+      {
+        "item": "minecraft:deepslate"
+      }
+    ],
+    {
+      "item": "mysticalagriculture:slime_essence"
+    },
+    {
+      "item": "mysticalagriculture:experience_droplet"
+    },
+    {
+      "item": "mysticalagriculture:slime_essence"
+    }
+  ],
+  "result": {
+    "item": "minecraft:slime_spawn_egg"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "type": "mysticalagriculture:infusion",
+  "input": {
+    "item": "mysticalmorecrops:blank_egg"
+  },
+  "conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:zombie"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "minecraft:obsidian"
+    },
+    {
+      "item": "mysticalagriculture:zombie_essence"
+    },
+    {
+      "item": "minecraft:piglin_spawn_egg"
+    },
+    {
+      "item": "mysticalagriculture:zombie_essence"
+    },
+    {
+      "item": "minecraft:flint_and_steel"
+    },
+    {
+      "item": "mysticalagriculture:zombie_essence"
+    },
+    {
+      "item": "minecraft:piglin_spawn_egg"
+    },
+    {
+      "item": "mysticalagriculture:zombie_essence"
+    }
+  ],
+  "result": {
+    "item": "minecraft:zombified_piglin_spawn_egg"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalmorecrops:amphibian"
+    },
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:water"
+    }
+  ],
+  "pattern": [
+    "EEE",
+    " W ",
+    " B "
+  ],
+  "key": {
+    "E": {
+      "item": "mysticalagriculture:amphibian_essence"
+    },
+    "W": {
+      "item": "mysticalagriculture:water_essence"
+    },
+    "B": {
+      "item": "minecraft:bucket"
+    }
+  },
+  "result": {
+    "item": "minecraft:tadpole_bucket",
+    "count": 1
+  }
+}

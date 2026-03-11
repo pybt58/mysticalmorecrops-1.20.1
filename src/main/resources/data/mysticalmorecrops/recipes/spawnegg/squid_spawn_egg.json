@@ -1,0 +1,41 @@
+{
+  "type": "mysticalagriculture:infusion",
+  "input": {
+    "item": "mysticalmorecrops:blank_egg"
+  },
+  "conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:squid"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "minecraft:dirt"
+    },
+    {
+      "item": "mysticalagriculture:squid_essence"
+    },
+    {
+      "item": "mysticalagriculture:experience_droplet"
+    },
+    {
+      "item": "mysticalagriculture:squid_essence"
+    },
+    {
+      "item": "minecraft:dirt"
+    },
+    {
+      "item": "mysticalagriculture:squid_essence"
+    },
+    {
+      "item": "mysticalagriculture:experience_droplet"
+    },
+    {
+      "item": "mysticalagriculture:squid_essence"
+    }
+  ],
+  "result": {
+    "item": "minecraft:squid_spawn_egg"
+  }
+}

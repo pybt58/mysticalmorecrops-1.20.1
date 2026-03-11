@@ -1,0 +1,41 @@
+{
+  "type": "mysticalagriculture:awakening",
+  "essences": [
+    {
+      "item": "mysticalagriculture:air_essence",
+      "count": 40
+    },
+    {
+      "item": "mysticalagriculture:earth_essence",
+      "count": 40
+    },
+    {
+      "item": "mysticalagriculture:water_essence",
+      "count": 40
+    },
+    {
+      "item": "mysticalagriculture:fire_essence",
+      "count": 40
+    }
+  ],
+  "input": {
+    "item": "mysticalagriculture:prosperity_seed_base"
+  },
+  "ingredients": [
+    {
+      "item": "mysticalagriculture:cognizant_dust"
+    },
+    {
+      "item": "mysticalagriculture:awakened_supremium_block"
+    },
+    {
+      "item": "mysticalagriculture:cognizant_dust"
+    },
+    {
+      "item": "mysticalagriculture:awakened_supremium_block"
+    }
+  ],
+  "result": {
+    "item": "mysticalagriculture:supremium_seeds"
+  }
+}

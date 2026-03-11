@@ -1,0 +1,10 @@
+{
+  "type": "mysticalagriculture:soul_extraction",
+  "input": {
+    "item": "minecraft:shulker_shell"
+  },
+  "output": {
+    "type": "mysticalmorecrops:shulker",
+    "souls": 0.5
+  }
+}

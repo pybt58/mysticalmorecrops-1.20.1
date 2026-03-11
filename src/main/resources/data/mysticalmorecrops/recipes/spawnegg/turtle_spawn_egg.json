@@ -1,0 +1,41 @@
+{
+  "type": "mysticalagriculture:infusion",
+  "input": {
+    "item": "mysticalmorecrops:blank_egg"
+  },
+  "conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:turtle"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "minecraft:turtle_egg"
+    },
+    {
+      "item": "mysticalagriculture:turtle_essence"
+    },
+    {
+      "item": "mysticalagriculture:experience_droplet"
+    },
+    {
+      "item": "mysticalagriculture:turtle_essence"
+    },
+    {
+      "item": "minecraft:turtle_egg"
+    },
+    {
+      "item": "mysticalagriculture:turtle_essence"
+    },
+    {
+      "item": "mysticalagriculture:experience_droplet"
+    },
+    {
+      "item": "mysticalagriculture:turtle_essence"
+    }
+  ],
+  "result": {
+    "item": "minecraft:turtle_spawn_egg"
+  }
+}

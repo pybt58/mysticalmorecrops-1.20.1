@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalmorecrops:sculk"
+    }
+  ],
+  "pattern": [
+    "   ",
+    "EEE",
+    "ECE"
+  ],
+  "key": {
+    "E": {
+      "item": "mysticalagriculture:sculk_essence"
+    },
+    "C": {
+      "item": "mysticalagriculture:experience_capsule"
+    }
+  },
+  "result": {
+    "item": "minecraft:sculk_catalyst",
+    "count": 2
+  }
+}

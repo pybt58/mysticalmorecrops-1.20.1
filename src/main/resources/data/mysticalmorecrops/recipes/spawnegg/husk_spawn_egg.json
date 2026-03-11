@@ -1,0 +1,45 @@
+{
+  "type": "mysticalagriculture:infusion",
+  "input": {
+    "item": "mysticalmorecrops:blank_egg"
+  },
+  "conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:zombie"
+    },
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:fire"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "minecraft:sand"
+    },
+    {
+      "item": "mysticalagriculture:zombie_essence"
+    },
+    {
+      "item": "mysticalagriculture:experience_droplet"
+    },
+    {
+      "item": "mysticalagriculture:fire_essence"
+    },
+    {
+      "item": "minecraft:sand"
+    },
+    {
+      "item": "mysticalagriculture:zombie_essence"
+    },
+    {
+      "item": "mysticalagriculture:experience_droplet"
+    },
+    {
+      "item": "mysticalagriculture:fire_essence"
+    }
+  ],
+  "result": {
+    "item": "minecraft:husk_spawn_egg"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "type": "mysticalagriculture:infusion",
+  "input": {
+    "item": "mysticalmorecrops:blank_egg"
+  },
+  "conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalmorecrops:amphibian"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "minecraft:lily_pad"
+    },
+    {
+      "item": "mysticalagriculture:amphibian_essence"
+    },
+    {
+      "item": "mysticalagriculture:experience_droplet"
+    },
+    {
+      "item": "mysticalagriculture:amphibian_essence"
+    },
+    {
+      "item": "minecraft:lily_pad"
+    },
+    {
+      "item": "mysticalagriculture:amphibian_essence"
+    },
+    {
+      "item": "mysticalagriculture:experience_droplet"
+    },
+    {
+      "item": "mysticalagriculture:amphibian_essence"
+    }
+  ],
+  "result": {
+    "item": "minecraft:frog_spawn_egg"
+  }
+}

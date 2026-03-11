@@ -1,0 +1,16 @@
+{
+  "type": "mysticalagriculture:reprocessor",
+  "conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalmorecrops:prosperity"
+    }
+  ],
+  "input": {
+    "item": "mysticalagriculture:prosperity_seeds"
+  },
+  "result": {
+    "count": 2,
+    "item": "mysticalagriculture:prosperity_essence"
+  }
+}

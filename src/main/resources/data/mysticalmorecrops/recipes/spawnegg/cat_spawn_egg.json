@@ -1,0 +1,41 @@
+{
+  "type": "mysticalagriculture:infusion",
+  "input": {
+    "item": "mysticalmorecrops:blank_egg"
+  },
+  "conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalmorecrops:cat"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "minecraft:grass_block"
+    },
+    {
+      "item": "mysticalagriculture:cat_essence"
+    },
+    {
+      "item": "mysticalagriculture:experience_droplet"
+    },
+    {
+      "item": "mysticalagriculture:cat_essence"
+    },
+    {
+      "tag": "minecraft:beds"
+    },
+    {
+      "item": "mysticalagriculture:cat_essence"
+    },
+    {
+      "item": "mysticalagriculture:experience_droplet"
+    },
+    {
+      "item": "mysticalagriculture:cat_essence"
+    }
+  ],
+  "result": {
+    "item": "minecraft:cat_spawn_egg"
+  }
+}

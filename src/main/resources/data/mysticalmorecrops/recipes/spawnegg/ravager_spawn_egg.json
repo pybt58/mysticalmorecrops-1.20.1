@@ -1,0 +1,55 @@
+{
+  "type": "mysticalagriculture:infusion",
+  "input": {
+    "item": "mysticalmorecrops:blank_egg"
+  },
+  "conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:cow"
+    },
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalmorecrops:evil"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "minecraft:saddle"
+    },
+    {
+      "item": "mysticalagriculture:cow_essence"
+    },
+    [
+      {
+        "item": "minecraft:pillager_spawn_egg"
+      },
+      {
+        "item": "minecraft:vindicator_spawn_egg"
+      }
+    ],
+    {
+      "item": "mysticalagriculture:evil_essence"
+    },
+    {
+      "item": "minecraft:saddle"
+    },
+    {
+      "item": "mysticalagriculture:cow_essence"
+    },
+    [
+      {
+        "item": "minecraft:pillager_spawn_egg"
+      },
+      {
+        "item": "minecraft:vindicator_spawn_egg"
+      }
+    ],
+    {
+      "item": "mysticalagriculture:evil_essence"
+    }
+  ],
+  "result": {
+    "item": "minecraft:ravager_spawn_egg"
+  }
+}

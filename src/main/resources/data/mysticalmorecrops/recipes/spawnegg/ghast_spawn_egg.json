@@ -1,0 +1,41 @@
+{
+  "type": "mysticalagriculture:infusion",
+  "input": {
+    "item": "mysticalmorecrops:blank_egg"
+  },
+  "conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:ghast"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "minecraft:fire_charge"
+    },
+    {
+      "item": "mysticalagriculture:ghast_essence"
+    },
+    {
+      "item": "mysticalagriculture:experience_droplet"
+    },
+    {
+      "item": "mysticalagriculture:ghast_essence"
+    },
+    {
+      "item": "minecraft:fire_charge"
+    },
+    {
+      "item": "mysticalagriculture:ghast_essence"
+    },
+    {
+      "item": "mysticalagriculture:experience_droplet"
+    },
+    {
+      "item": "mysticalagriculture:ghast_essence"
+    }
+  ],
+  "result": {
+    "item": "minecraft:ghast_spawn_egg"
+  }
+}

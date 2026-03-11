@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "mysticalagriculture:seed_crafting_recipes_enabled"
+    },
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalmorecrops:wolf"
+    },
+    {
+      "type": "mysticalagriculture:crop_has_material",
+      "crop": "mysticalmorecrops:wolf"
+    }
+  ],
+  "group": "mysticalagriculture:seeds",
+  "key": {
+    "E": {
+      "type": "mysticalagriculture:crop_component",
+      "component": "essence",
+      "crop": "mysticalmorecrops:wolf"
+    },
+    "M": {
+      "type": "mysticalagriculture:crop_component",
+      "component": "material",
+      "crop": "mysticalmorecrops:wolf"
+    },
+    "S": {
+      "type": "mysticalagriculture:crop_component",
+      "component": "seed",
+      "crop": "mysticalmorecrops:wolf"
+    }
+  },
+  "pattern": [
+    "MEM",
+    "ESE",
+    "MEM"
+  ],
+  "result": {
+    "item": "mysticalagriculture:wolf_seeds"
+  }
+}

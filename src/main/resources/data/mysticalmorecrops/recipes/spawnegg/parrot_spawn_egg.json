@@ -1,0 +1,51 @@
+{
+  "type": "mysticalagriculture:infusion",
+  "input": {
+    "item": "mysticalmorecrops:blank_egg"
+  },
+  "conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:chicken"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "item": "minecraft:jungle_leaves"
+      },
+      {
+        "item": "minecraft:jukebox"
+      }
+    ],
+    {
+      "item": "mysticalagriculture:chicken_essence"
+    },
+    {
+      "item": "mysticalagriculture:experience_droplet"
+    },
+    {
+      "item": "mysticalagriculture:chicken_essence"
+    },
+    [
+      {
+        "item": "minecraft:jungle_leaves"
+      },
+      {
+        "item": "minecraft:jukebox"
+      }
+    ],
+    {
+      "item": "mysticalagriculture:chicken_essence"
+    },
+    {
+      "item": "mysticalagriculture:experience_droplet"
+    },
+    {
+      "item": "mysticalagriculture:chicken_essence"
+    }
+  ],
+  "result": {
+    "item": "minecraft:parrot_spawn_egg"
+  }
+}

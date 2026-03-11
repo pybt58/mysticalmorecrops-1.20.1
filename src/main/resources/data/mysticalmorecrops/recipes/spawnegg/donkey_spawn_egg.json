@@ -1,0 +1,41 @@
+{
+  "type": "mysticalagriculture:infusion",
+  "input": {
+    "item": "mysticalmorecrops:blank_egg"
+  },
+  "conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalmorecrops:horse"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "minecraft:chest"
+    },
+    {
+      "item": "mysticalagriculture:horse_essence"
+    },
+    {
+      "item": "mysticalagriculture:experience_droplet"
+    },
+    {
+      "item": "mysticalagriculture:horse_essence"
+    },
+    {
+      "item": "minecraft:chest"
+    },
+    {
+      "item": "mysticalagriculture:horse_essence"
+    },
+    {
+      "item": "mysticalagriculture:experience_droplet"
+    },
+    {
+      "item": "mysticalagriculture:horse_essence"
+    }
+  ],
+  "result": {
+    "item": "minecraft:donkey_spawn_egg"
+  }
+}

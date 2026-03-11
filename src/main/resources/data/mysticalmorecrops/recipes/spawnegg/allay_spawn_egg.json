@@ -1,0 +1,41 @@
+{
+  "type": "mysticalagriculture:infusion",
+  "input": {
+    "item": "mysticalmorecrops:blank_egg"
+  },
+  "conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalmorecrops:allay"
+    }
+  ],
+  "ingredients": [
+    {
+      "tag": "minecraft:music_discs"
+    },
+    {
+      "item": "mysticalagriculture:allay_essence"
+    },
+    {
+      "item": "mysticalagriculture:experience_droplet"
+    },
+    {
+      "item": "mysticalagriculture:allay_essence"
+    },
+    {
+      "tag": "minecraft:music_discs"
+    },
+    {
+      "item": "mysticalagriculture:allay_essence"
+    },
+    {
+      "item": "mysticalagriculture:experience_droplet"
+    },
+    {
+      "item": "mysticalagriculture:allay_essence"
+    }
+  ],
+  "result": {
+    "item": "minecraft:allay_spawn_egg"
+  }
+}

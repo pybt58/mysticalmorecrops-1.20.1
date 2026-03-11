@@ -1,0 +1,16 @@
+{
+  "type": "mysticalagriculture:reprocessor",
+  "conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalmorecrops:shulker"
+    }
+  ],
+  "input": {
+    "item": "mysticalagriculture:shulker_seeds"
+  },
+  "result": {
+    "count": 2,
+    "item": "mysticalagriculture:shulker_essence"
+  }
+}

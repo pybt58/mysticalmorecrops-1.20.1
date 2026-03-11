@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalmorecrops:sculk"
+    },
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:redstone"
+    }
+  ],
+  "pattern": [
+    "   ",
+    "EEE",
+    "ERE"
+  ],
+  "key": {
+    "E": {
+      "item": "mysticalagriculture:sculk_essence"
+    },
+    "R": {
+      "item": "mysticalagriculture:redstone_essence"
+    }
+  },
+  "result": {
+    "item": "minecraft:sculk_sensor",
+    "count": 2
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "type": "mysticalagriculture:infusion",
+  "input": {
+    "item": "mysticalmorecrops:blank_egg"
+  },
+  "conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalmorecrops:sniffer"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "minecraft:torchflower_seeds"
+    },
+    {
+      "item": "mysticalagriculture:sniffer_essence"
+    },
+    {
+      "item": "mysticalagriculture:experience_droplet"
+    },
+    {
+      "item": "mysticalagriculture:sniffer_essence"
+    },
+    {
+      "item": "minecraft:torchflower_seeds"
+    },
+    {
+      "item": "mysticalagriculture:sniffer_essence"
+    },
+    {
+      "item": "mysticalagriculture:experience_droplet"
+    },
+    {
+      "item": "mysticalagriculture:sniffer_essence"
+    }
+  ],
+  "result": {
+    "item": "minecraft:sniffer_spawn_egg"
+  }
+}

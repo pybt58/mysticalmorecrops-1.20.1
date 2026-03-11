@@ -1,0 +1,51 @@
+{
+  "type": "mysticalagriculture:infusion",
+  "input": {
+    "item": "mysticalmorecrops:blank_egg"
+  },
+  "conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:honey"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "item": "minecraft:bee_nest"
+      },
+      {
+        "item": "minecraft:beehive"
+      }
+    ],
+    {
+      "item": "mysticalagriculture:honey_essence"
+    },
+    {
+      "item": "mysticalagriculture:experience_droplet"
+    },
+    {
+      "item": "mysticalagriculture:honey_essence"
+    },
+    [
+      {
+        "item": "minecraft:bee_nest"
+      },
+      {
+        "item": "minecraft:beehive"
+      }
+    ],
+    {
+      "item": "mysticalagriculture:honey_essence"
+    },
+    {
+      "item": "mysticalagriculture:experience_droplet"
+    },
+    {
+      "item": "mysticalagriculture:honey_essence"
+    }
+  ],
+  "result": {
+    "item": "minecraft:bee_spawn_egg"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "type": "mysticalagriculture:infusion",
+  "input": {
+    "item": "mysticalmorecrops:blank_egg"
+  },
+  "conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalmorecrops:strider"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "minecraft:warped_fungus"
+    },
+    {
+      "item": "mysticalagriculture:strider_essence"
+    },
+    {
+      "item": "mysticalagriculture:experience_droplet"
+    },
+    {
+      "item": "mysticalagriculture:strider_essence"
+    },
+    {
+      "item": "minecraft:warped_fungus"
+    },
+    {
+      "item": "mysticalagriculture:strider_essence"
+    },
+    {
+      "item": "mysticalagriculture:experience_droplet"
+    },
+    {
+      "item": "mysticalagriculture:strider_essence"
+    }
+  ],
+  "result": {
+    "item": "minecraft:strider_spawn_egg"
+  }
+}

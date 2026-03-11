@@ -1,0 +1,10 @@
+{
+  "type": "mysticalagriculture:soul_extraction",
+  "input": {
+    "item": "minecraft:carved_pumpkin"
+  },
+  "output": {
+    "type": "mysticalmorecrops:golem",
+    "souls": 0.5
+  }
+}

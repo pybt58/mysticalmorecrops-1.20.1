@@ -1,0 +1,41 @@
+{
+  "type": "mysticalagriculture:infusion",
+  "input": {
+    "item": "mysticalmorecrops:blank_egg"
+  },
+  "conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalmorecrops:wolf"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "minecraft:grass_block"
+    },
+    {
+      "item": "mysticalagriculture:wolf_essence"
+    },
+    {
+      "item": "mysticalagriculture:experience_droplet"
+    },
+    {
+      "item": "mysticalagriculture:wolf_essence"
+    },
+    {
+      "item": "minecraft:grass_block"
+    },
+    {
+      "item": "mysticalagriculture:wolf_essence"
+    },
+    {
+      "item": "mysticalagriculture:experience_droplet"
+    },
+    {
+      "item": "mysticalagriculture:wolf_essence"
+    }
+  ],
+  "result": {
+    "item": "minecraft:wolf_spawn_egg"
+  }
+}

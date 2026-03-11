@@ -1,0 +1,41 @@
+{
+  "type": "mysticalagriculture:infusion",
+  "input": {
+    "item": "mysticalmorecrops:blank_egg"
+  },
+  "conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:zombie"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "minecraft:grass_block"
+    },
+    {
+      "item": "mysticalagriculture:zombie_essence"
+    },
+    {
+      "item": "minecraft:hoglin_spawn_egg"
+    },
+    {
+      "item": "mysticalagriculture:zombie_essence"
+    },
+    {
+      "item": "minecraft:end_stone"
+    },
+    {
+      "item": "mysticalagriculture:zombie_essence"
+    },
+    {
+      "item": "minecraft:hoglin_spawn_egg"
+    },
+    {
+      "item": "mysticalagriculture:zombie_essence"
+    }
+  ],
+  "result": {
+    "item": "minecraft:zoglin_spawn_egg"
+  }
+}

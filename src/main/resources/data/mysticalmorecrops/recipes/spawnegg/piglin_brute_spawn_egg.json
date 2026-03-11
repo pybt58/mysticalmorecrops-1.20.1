@@ -1,0 +1,49 @@
+{
+  "type": "mysticalagriculture:infusion",
+  "input": {
+    "item": "mysticalmorecrops:blank_egg"
+  },
+  "conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:pig"
+    },
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalmorecrops:human"
+    },
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalmorecrops:evil"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "minecraft:chiseled_polished_blackstone"
+    },
+    {
+      "item": "mysticalagriculture:pig_essence"
+    },
+    {
+      "item": "minecraft:piglin_spawn_egg"
+    },
+    {
+      "item": "mysticalagriculture:human_essence"
+    },
+    {
+      "item": "minecraft:chiseled_polished_blackstone"
+    },
+    {
+      "item": "mysticalagriculture:evil_essence"
+    },
+    {
+      "item": "minecraft:piglin_spawn_egg"
+    },
+    {
+      "item": "mysticalagriculture:human_essence"
+    }
+  ],
+  "result": {
+    "item": "minecraft:piglin_brute_spawn_egg"
+  }
+}

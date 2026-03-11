@@ -1,0 +1,16 @@
+{
+  "type": "mysticalagriculture:reprocessor",
+  "conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalmorecrops:supremium"
+    }
+  ],
+  "input": {
+    "item": "mysticalagriculture:supremium_seeds"
+  },
+  "result": {
+    "count": 2,
+    "item": "mysticalagriculture:supremium_essence"
+  }
+}

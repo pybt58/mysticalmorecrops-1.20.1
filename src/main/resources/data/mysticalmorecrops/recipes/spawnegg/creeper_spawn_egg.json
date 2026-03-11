@@ -1,0 +1,41 @@
+{
+  "type": "mysticalagriculture:infusion",
+  "input": {
+    "item": "mysticalmorecrops:blank_egg"
+  },
+  "conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:creeper"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "minecraft:grass_block"
+    },
+    {
+      "item": "mysticalagriculture:creeper_essence"
+    },
+    {
+      "item": "mysticalagriculture:experience_droplet"
+    },
+    {
+      "item": "mysticalagriculture:creeper_essence"
+    },
+    {
+      "item": "minecraft:grass_block"
+    },
+    {
+      "item": "mysticalagriculture:creeper_essence"
+    },
+    {
+      "item": "mysticalagriculture:experience_droplet"
+    },
+    {
+      "item": "mysticalagriculture:creeper_essence"
+    }
+  ],
+  "result": {
+    "item": "minecraft:creeper_spawn_egg"
+  }
+}

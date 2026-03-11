@@ -1,0 +1,41 @@
+{
+  "type": "mysticalagriculture:infusion",
+  "input": {
+    "item": "mysticalmorecrops:blank_egg"
+  },
+  "conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalmorecrops:shulker"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "minecraft:purpur_block"
+    },
+    {
+      "item": "mysticalagriculture:shulker_essence"
+    },
+    {
+      "item": "mysticalagriculture:experience_droplet"
+    },
+    {
+      "item": "mysticalagriculture:shulker_essence"
+    },
+    {
+      "item": "minecraft:purpur_block"
+    },
+    {
+      "item": "mysticalagriculture:shulker_essence"
+    },
+    {
+      "item": "mysticalagriculture:experience_droplet"
+    },
+    {
+      "item": "mysticalagriculture:shulker_essence"
+    }
+  ],
+  "result": {
+    "item": "minecraft:shulker_spawn_egg"
+  }
+}

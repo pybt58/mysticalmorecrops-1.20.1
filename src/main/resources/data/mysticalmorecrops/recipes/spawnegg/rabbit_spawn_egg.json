@@ -1,0 +1,51 @@
+{
+  "type": "mysticalagriculture:infusion",
+  "input": {
+    "item": "mysticalmorecrops:blank_egg"
+  },
+  "conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:rabbit"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "item": "minecraft:dandelion"
+      },
+      {
+        "item": "minecraft:carrot"
+      }
+    ],
+    {
+      "item": "mysticalagriculture:rabbit_essence"
+    },
+    {
+      "item": "mysticalagriculture:experience_droplet"
+    },
+    {
+      "item": "mysticalagriculture:rabbit_essence"
+    },
+    [
+      {
+        "item": "minecraft:dandelion"
+      },
+      {
+        "item": "minecraft:carrot"
+      }
+    ],
+    {
+      "item": "mysticalagriculture:rabbit_essence"
+    },
+    {
+      "item": "mysticalagriculture:experience_droplet"
+    },
+    {
+      "item": "mysticalagriculture:rabbit_essence"
+    }
+  ],
+  "result": {
+    "item": "minecraft:rabbit_spawn_egg"
+  }
+}

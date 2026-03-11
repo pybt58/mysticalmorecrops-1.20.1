@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalmorecrops:sniffer"
+    },
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:dirt"
+    },
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:nature"
+    }
+  ],
+  "pattern": [
+    "EEE",
+    " D ",
+    " N "
+  ],
+  "key": {
+    "E": {
+      "item": "mysticalagriculture:sniffer_essence"
+    },
+    "D": {
+      "item": "mysticalagriculture:dirt_essence"
+    },
+    "N": {
+      "item": "mysticalagriculture:nature_essence"
+    }
+  },
+  "result": {
+    "item": "minecraft:torchflower_seeds",
+    "count": 2
+  }
+}

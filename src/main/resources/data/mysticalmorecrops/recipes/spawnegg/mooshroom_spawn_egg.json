@@ -1,0 +1,59 @@
+{
+  "type": "mysticalagriculture:infusion",
+  "input": {
+    "item": "mysticalmorecrops:blank_egg"
+  },
+  "conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:cow"
+    },
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:nature"
+    },
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:dirt"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "item": "minecraft:mycelium"
+      },
+      {
+        "item": "minecraft:mushroom_stew"
+      }
+    ],
+    {
+      "item": "mysticalagriculture:cow_essence"
+    },
+    {
+      "item": "minecraft:cow_spawn_egg"
+    },
+    {
+      "item": "mysticalagriculture:nature_essence"
+    },
+    [
+      {
+        "item": "minecraft:mycelium"
+      },
+      {
+        "item": "minecraft:mushroom_stew"
+      }
+    ],
+    {
+      "item": "mysticalagriculture:cow_essence"
+    },
+    {
+      "item": "minecraft:cow_spawn_egg"
+    },
+    {
+      "item": "mysticalagriculture:dirt_essence"
+    }
+  ],
+  "result": {
+    "item": "minecraft:mooshroom_spawn_egg"
+  }
+}

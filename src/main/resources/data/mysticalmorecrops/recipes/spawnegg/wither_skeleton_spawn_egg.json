@@ -1,0 +1,41 @@
+{
+  "type": "mysticalagriculture:infusion",
+  "input": {
+    "item": "mysticalmorecrops:blank_egg"
+  },
+  "conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:wither_skeleton"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "minecraft:wither_skeleton_skull"
+    },
+    {
+      "item": "mysticalagriculture:wither_skeleton_essence"
+    },
+    {
+      "item": "mysticalagriculture:experience_droplet"
+    },
+    {
+      "item": "mysticalagriculture:wither_skeleton_essence"
+    },
+    {
+      "item": "minecraft:stone_sword"
+    },
+    {
+      "item": "mysticalagriculture:wither_skeleton_essence"
+    },
+    {
+      "item": "mysticalagriculture:experience_droplet"
+    },
+    {
+      "item": "mysticalagriculture:wither_skeleton_essence"
+    }
+  ],
+  "result": {
+    "item": "minecraft:wither_skeleton_spawn_egg"
+  }
+}

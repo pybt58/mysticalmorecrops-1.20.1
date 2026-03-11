@@ -1,0 +1,41 @@
+{
+  "type": "mysticalagriculture:infusion",
+  "input": {
+    "item": "mysticalmorecrops:blank_egg"
+  },
+  "conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalmorecrops:dolphin"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "minecraft:map"
+    },
+    {
+      "item": "mysticalagriculture:dolphin_essence"
+    },
+    {
+      "item": "mysticalagriculture:experience_droplet"
+    },
+    {
+      "item": "mysticalagriculture:dolphin_essence"
+    },
+    {
+      "item": "minecraft:map"
+    },
+    {
+      "item": "mysticalagriculture:dolphin_essence"
+    },
+    {
+      "item": "mysticalagriculture:experience_droplet"
+    },
+    {
+      "item": "mysticalagriculture:dolphin_essence"
+    }
+  ],
+  "result": {
+    "item": "minecraft:dolphin_spawn_egg"
+  }
+}

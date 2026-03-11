@@ -1,0 +1,41 @@
+{
+  "type": "mysticalagriculture:infusion",
+  "input": {
+    "item": "mysticalmorecrops:blank_egg"
+  },
+  "conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalmorecrops:bear"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "minecraft:bamboo"
+    },
+    {
+      "item": "mysticalagriculture:bear_essence"
+    },
+    {
+      "item": "mysticalagriculture:experience_droplet"
+    },
+    {
+      "item": "mysticalagriculture:bear_essence"
+    },
+    {
+      "item": "minecraft:bamboo"
+    },
+    {
+      "item": "mysticalagriculture:bear_essence"
+    },
+    {
+      "item": "mysticalagriculture:experience_droplet"
+    },
+    {
+      "item": "mysticalagriculture:bear_essence"
+    }
+  ],
+  "result": {
+    "item": "minecraft:panda_spawn_egg"
+  }
+}

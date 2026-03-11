@@ -1,0 +1,16 @@
+{
+  "type": "mysticalagriculture:reprocessor",
+  "conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalmorecrops:soulstone"
+    }
+  ],
+  "input": {
+    "item": "mysticalagriculture:soulstone_seeds"
+  },
+  "result": {
+    "count": 2,
+    "item": "mysticalagriculture:soulstone_essence"
+  }
+}

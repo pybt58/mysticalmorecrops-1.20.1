@@ -1,0 +1,10 @@
+{
+  "type": "mysticalagriculture:soul_extraction",
+  "input": {
+    "item": "minecraft:saddle"
+  },
+  "output": {
+    "type": "mysticalmorecrops:horse",
+    "souls": 0.5
+  }
+}

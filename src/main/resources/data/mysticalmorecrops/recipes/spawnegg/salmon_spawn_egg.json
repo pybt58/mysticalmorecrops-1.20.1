@@ -1,0 +1,41 @@
+{
+  "type": "mysticalagriculture:infusion",
+  "input": {
+    "item": "mysticalmorecrops:blank_egg"
+  },
+  "conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:fish"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "minecraft:ice"
+    },
+    {
+      "item": "mysticalagriculture:fish_essence"
+    },
+    {
+      "item": "mysticalagriculture:experience_droplet"
+    },
+    {
+      "item": "mysticalagriculture:fish_essence"
+    },
+    {
+      "item": "minecraft:ice"
+    },
+    {
+      "item": "mysticalagriculture:fish_essence"
+    },
+    {
+      "item": "mysticalagriculture:experience_droplet"
+    },
+    {
+      "item": "mysticalagriculture:fish_essence"
+    }
+  ],
+  "result": {
+    "item": "minecraft:salmon_spawn_egg"
+  }
+}

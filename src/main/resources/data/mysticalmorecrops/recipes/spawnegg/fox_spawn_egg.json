@@ -1,0 +1,41 @@
+{
+  "type": "mysticalagriculture:infusion",
+  "input": {
+    "item": "mysticalmorecrops:blank_egg"
+  },
+  "conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalmorecrops:fox"
+    }
+  ],
+  "ingredients": [
+    {
+      "tag": "minecraft:fox_food"
+    },
+    {
+      "item": "mysticalagriculture:fox_essence"
+    },
+    {
+      "item": "mysticalagriculture:experience_droplet"
+    },
+    {
+      "item": "mysticalagriculture:fox_essence"
+    },
+    {
+      "tag": "minecraft:fox_food"
+    },
+    {
+      "item": "mysticalagriculture:fox_essence"
+    },
+    {
+      "item": "mysticalagriculture:experience_droplet"
+    },
+    {
+      "item": "mysticalagriculture:fox_essence"
+    }
+  ],
+  "result": {
+    "item": "minecraft:fox_spawn_egg"
+  }
+}
