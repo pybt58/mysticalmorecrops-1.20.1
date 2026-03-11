@@ -47,5 +47,7 @@
   "crop.mysticalmorecrops.sniffer": "Sniffer",
   "crop.mysticalmorecrops.strider": "Strider",
   "crop.mysticalmorecrops.wolf": "Wolf",
-  "crop.mysticalmorecrops.evil": "Evil"
+  "crop.mysticalmorecrops.evil": "Evil",
+
+  "jei.desc.mysticalmorecrops.evil_intention": "Dropped by the Patrol Leader or Raid Captain (Illager with an Ominous Banner) when killed with an Essence Weapon enchanted with Mystical Enlightenment.\n\nTip: Kill the banner carrier and leave the banner on the ground. Other Illagers may pick it up and become the new leader or captain, letting you farm ADDITIONAL Evil Intention!"
 }

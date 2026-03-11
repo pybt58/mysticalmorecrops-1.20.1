@@ -18,7 +18,7 @@ public final class ModCreativeModeTabs {
     public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, MysticalMoreCrops.MOD_ID);
     public static final RegistryObject<CreativeModeTab> CREATIVE_TAB = REGISTRY.register("creative_tab", () -> CreativeModeTab.builder()
             .title(Component.translatable("itemGroup:mysticalmorecrops"))
-            .icon(() -> new ItemStack(ModBlocks.SUPREMIUM_CROP.get())) //todo アイテムに差し替え
+            .icon(() -> new ItemStack(ModItems.BLANK_EGG.get()))
             .displayItems(FeatureFlagDisplayItemGenerator.create((parameters, output) -> {
 
                 // このmodで追加されたModBlock

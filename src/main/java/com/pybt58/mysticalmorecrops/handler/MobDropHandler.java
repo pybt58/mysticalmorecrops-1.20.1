@@ -16,7 +16,7 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 
 public final class MobDropHandler {
     @SubscribeEvent
-    public void onLivingDrops(LivingDropsEvent event) { //todo 実際にドロップするか確認
+    public void onLivingDrops(LivingDropsEvent event) {
         LivingEntity entity = event.getEntity();
         Level level = entity.level();
 
@@ -26,7 +26,7 @@ public final class MobDropHandler {
         var drops = event.getDrops();
         var attacker = event.getSource().getEntity();
 
-        if (entity instanceof PatrollingMonster) {
+        if (entity instanceof PatrollingMonster patrol && patrol.isPatrolLeader()) {
             if (attacker instanceof Player player) {
                 var held = player.getMainHandItem();
                 var item = held.getItem();

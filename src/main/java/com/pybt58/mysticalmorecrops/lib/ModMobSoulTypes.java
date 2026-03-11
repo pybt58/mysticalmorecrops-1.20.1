@@ -36,7 +36,7 @@ public final class ModMobSoulTypes {
     private static final Set<ResourceLocation> SNIFFER_IDS = Sets.newHashSet(ResourceLocation.parse("minecraft:sniffer"));
     private static final Set<ResourceLocation> STRIDER_IDS = Sets.newHashSet(ResourceLocation.parse("minecraft:strider"));
     private static final Set<ResourceLocation> WOLF_IDS = Sets.newHashSet(ResourceLocation.parse("minecraft:wolf"));
-    private static final Set<ResourceLocation> EVIL_IDS = Sets.newHashSet();// 村人を倒してもHUMANは手に入らないし、イリジャー系を倒してもEVILは手に入らない
+    private static final Set<ResourceLocation> EVIL_IDS = Sets.newHashSet();// 村人を倒してもHUMANは手に入らないし、普通のイリジャー系を倒してもEVILは手に入らない
     //private static final Set<ResourceLocation> GRIMOIRE_IDS = Sets.newHashSet();
     /*
     static {
@@ -48,22 +48,22 @@ public final class ModMobSoulTypes {
     }
     */
 
-    public static final MobSoulType ALLAY = new MobSoulType(MysticalMoreCrops.resource("allay"), ALLAY_IDS, "allay", 6, 0x3DE0F7);
+    public static final MobSoulType ALLAY = new MobSoulType(MysticalMoreCrops.resource("allay"), ALLAY_IDS, "allay", 8 , 0x3DE0F7);
     public static final MobSoulType AMPHIBIAN = new MobSoulType(MysticalMoreCrops.resource("amphibian"), AMPHIBIAN_IDS, "amphibian", 6, 0x8690F5);
-    public static final MobSoulType BAT = new MobSoulType(MysticalMoreCrops.resource("bat"), BAT_IDS, "bat", 6, 0x26211F);
+    public static final MobSoulType BAT = new MobSoulType(MysticalMoreCrops.resource("bat"), BAT_IDS, "bat", 4, 0x26211F);
     public static final MobSoulType BEAR = new MobSoulType(MysticalMoreCrops.resource("bear"), BEAR_IDS, "bear", 6, 0xD5D6CD);
     public static final MobSoulType CAT = new MobSoulType(MysticalMoreCrops.resource("cat"), CAT_IDS, "cat", 6, 0x161524);
     public static final MobSoulType DOLPHIN = new MobSoulType(MysticalMoreCrops.resource("dolphin"), DOLPHIN_IDS, "dolphin", 6, 0x88A3BE);
     public static final MobSoulType FOX = new MobSoulType(MysticalMoreCrops.resource("fox"), FOX_IDS, "fox", 6, 0xE27C21);
-    public static final MobSoulType GOLEM = new MobSoulType(MysticalMoreCrops.resource("golem"), GOLEM_IDS, "golem", 6, 0xDBCDC2);
-    public static final MobSoulType HORSE = new MobSoulType(MysticalMoreCrops.resource("horse"), HORSE_IDS, "horse", 6, 0x3F1B08);
-    public static final MobSoulType HUMAN = new MobSoulType(MysticalMoreCrops.resource("human"), HUMAN_IDS, "human", 6, 0xBE886C);
-    public static final MobSoulType LLAMA = new MobSoulType(MysticalMoreCrops.resource("llama"), LLAMA_IDS, "llama", 6, 0xFCEBC6);
-    public static final MobSoulType MITE = new MobSoulType(MysticalMoreCrops.resource("mite"), MITE_IDS, "mite", 6, 0x5C5C64);
-    public static final MobSoulType SHULKER = new MobSoulType(MysticalMoreCrops.resource("shulker"), SHULKER_IDS, "shulker", 6, 0x976997);
+    public static final MobSoulType GOLEM = new MobSoulType(MysticalMoreCrops.resource("golem"), GOLEM_IDS, "golem", 12, 0xDBCDC2);
+    public static final MobSoulType HORSE = new MobSoulType(MysticalMoreCrops.resource("horse"), HORSE_IDS, "horse", 8, 0x3F1B08);
+    public static final MobSoulType HUMAN = new MobSoulType(MysticalMoreCrops.resource("human"), HUMAN_IDS, "human", 16, 0xBE886C);
+    public static final MobSoulType LLAMA = new MobSoulType(MysticalMoreCrops.resource("llama"), LLAMA_IDS, "llama", 8, 0xFCEBC6);
+    public static final MobSoulType MITE = new MobSoulType(MysticalMoreCrops.resource("mite"), MITE_IDS, "mite", 4, 0x5C5C64);
+    public static final MobSoulType SHULKER = new MobSoulType(MysticalMoreCrops.resource("shulker"), SHULKER_IDS, "shulker", 10, 0x976997);
     public static final MobSoulType SNIFFER = new MobSoulType(MysticalMoreCrops.resource("sniffer"), SNIFFER_IDS, "sniffer", 6, 0x134733);
     public static final MobSoulType STRIDER = new MobSoulType(MysticalMoreCrops.resource("strider"), STRIDER_IDS, "strider", 6, 0x9C3436);
-    public static final MobSoulType WOLF = new MobSoulType(MysticalMoreCrops.resource("wolf"), WOLF_IDS, "wolf", 6, 0xDDDADB);
+    public static final MobSoulType WOLF = new MobSoulType(MysticalMoreCrops.resource("wolf"), WOLF_IDS, "wolf", 8, 0xDDDADB);
     public static final MobSoulType EVIL = new MobSoulType(MysticalMoreCrops.resource("evil"), EVIL_IDS, "evil", 6, 0x2A4455);
     //public static final MobSoulType GRIMOIRE = new MobSoulType(MysticalMoreCrops.resource("grimoire"), GRIMOIRE_IDS, "grimoire", 6, -1);
     //...

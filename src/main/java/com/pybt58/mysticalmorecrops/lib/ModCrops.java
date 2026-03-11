@@ -8,6 +8,7 @@ import com.blakebr0.mysticalagriculture.api.registry.ICropRegistry;
 import com.blakebr0.mysticalagriculture.api.util.MobSoulUtils;
 import com.blakebr0.mysticalagriculture.init.ModItems;
 import com.pybt58.mysticalmorecrops.MysticalMoreCrops;
+import com.pybt58.mysticalmorecrops.config.ModConfigs;
 import com.pybt58.mysticalmorecrops.init.ModBlocks;
 import net.minecraft.world.level.block.CropBlock;
 import net.minecraftforge.fml.ModList;
@@ -46,10 +47,10 @@ public final class ModCrops {
         SUPREMIUM.getRecipeConfig().setSeedCraftingRecipeEnabled(false).setSeedInfusionRecipeEnabled(false);
         SUPREMIUM.setCropBlock(() -> (CropBlock) ModBlocks.SUPREMIUM_CROP.get()).setEssenceItem(ModItems.SUPREMIUM_ESSENCE);
 
-        //PROSPERITY.getRecipeConfig().setSeedCraftingRecipeEnabled(false).setSeedInfusionRecipeEnabled(false);//todo 対応するレシピを手動で追加する
+        PROSPERITY.getRecipeConfig().setSeedCraftingRecipeEnabled(false).setSeedInfusionRecipeEnabled(false);
 
-        registry.register(SUPREMIUM);
-        registry.register(PROSPERITY);
+        registry.register(SUPREMIUM.setEnabled(ModConfigs.ENABLE_SUPREMIUM_CROP.get()));
+        registry.register(PROSPERITY.setEnabled(ModConfigs.ENABLE_PROSPERITY_CROP.get()));
 
         registry.register(SOULSTONE);
         registry.register(SCULK);
