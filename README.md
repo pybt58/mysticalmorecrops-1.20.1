@@ -134,6 +134,7 @@ Do not forget to add some recipe that [creates resource item from essence](./src
 And add some [soul_extraction](./src/main/resources/data/mysticalmorecrops/recipes/souls) recipe if you need.
 
 
+## 余談
 
 ボスとBeeとVillagerを除く全Mobに対応したCropを作成したのはいいのですが、Vanillaの範囲ではスポーンエッグ以外に使い道がないものが多いですね・・・
 
