@@ -51,3 +51,4 @@ public class MysticalMoreCrops
         return new ResourceLocation(MysticalAgriculture.MOD_ID, path);
     }
 }
+// phantom のレシピは1.21.1で変更　phantomのCropが新設されているため

@@ -132,3 +132,11 @@ About contents of file, reference files in these directories.
 Do not forget to add some recipe that [creates resource item from essence](./src/main/resources/data/mysticalmorecrops/recipes/essence)!
 
 And add some [soul_extraction](./src/main/resources/data/mysticalmorecrops/recipes/souls) recipe if you need.
+
+
+
+ボスとBeeとVillagerを除く全Mobに対応したCropを作成したのはいいのですが、Vanillaの範囲ではスポーンエッグ以外に使い道がないものが多いですね・・・
+
+(dolphinをどのCropに対応させようかな？ → 思いつかない！新しくdolphin Cropを作るか → dolphinのエッセンス、dolphinのスポーンエッグ作成以外に使い道を思いつかない問題発生)
+
+将来的に、他のmodのmobやresourceにも対応させたい。これで使い道の少ないエッセンスの価値が上がるといいのですが
