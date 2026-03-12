@@ -24,13 +24,13 @@ public class RecipeJsonGenerator extends RecipeProvider {
             if (crop.getModId().equals(MysticalMoreCrops.MOD_ID)) {
                 if (crop != ModCrops.SUPREMIUM && crop != ModCrops.PROSPERITY) {
                     var craftingId = "seed/crafting/" + crop.getName();
-                    CraftingRecipeBuilder.newSeedRecipe(crop).build(consumer, ResourceLocation.fromNamespaceAndPath(crop.getModId(), craftingId));
+                    CraftingRecipeBuilder.newSeedRecipe(crop).build(consumer, new ResourceLocation(crop.getModId(), craftingId));
 
                     var infusionId = "seed/infusion/" + crop.getName();
-                    InfusionRecipeBuilder.newSeedRecipe(crop).build(consumer, ResourceLocation.fromNamespaceAndPath(crop.getModId(), infusionId));
+                    InfusionRecipeBuilder.newSeedRecipe(crop).build(consumer, new ResourceLocation(crop.getModId(), infusionId));
                 }
                 var reprocessorId = "seed/reprocessor/" + crop.getName();
-                ReprocessorRecipeBuilder.newSeedReprocessingRecipe(crop).build(consumer, ResourceLocation.fromNamespaceAndPath(crop.getModId(), reprocessorId));
+                ReprocessorRecipeBuilder.newSeedReprocessingRecipe(crop).build(consumer, new ResourceLocation(crop.getModId(), reprocessorId));
             }
         }
     }

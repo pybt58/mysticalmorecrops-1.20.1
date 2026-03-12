@@ -20,7 +20,7 @@ public final class ModMobSoulTypes {
 
     // ソウルタイプ”魚”の定義
     // public static final MobSoulType FISH = new MobSoulType(MysticalMoreCrops.resource("fish"), FISH_IDS, "fish", 6, 12691306);
-    private static final Set<ResourceLocation> ALLAY_IDS = Sets.newHashSet(MysticalMoreCrops.resource("minecraft:allay"), new ResourceLocation("minecraft:vex"));
+    private static final Set<ResourceLocation> ALLAY_IDS = Sets.newHashSet(new ResourceLocation("minecraft:allay"), new ResourceLocation("minecraft:vex"));
     private static final Set<ResourceLocation> AMPHIBIAN_IDS = Sets.newHashSet(new ResourceLocation("minecraft:axolotl"), new ResourceLocation("minecraft:frog"), new ResourceLocation("minecraft:tadpole"));
     private static final Set<ResourceLocation> BAT_IDS = Sets.newHashSet(new ResourceLocation("minecraft:bat"));
     private static final Set<ResourceLocation> BEAR_IDS = Sets.newHashSet(new ResourceLocation("minecraft:panda"), new ResourceLocation("minecraft:polar_bear"));

@@ -24,8 +24,8 @@ public class MysticalMoreCrops
     public static final String NAME = "Mystical More Crops";
     public static final Logger LOGGER = LogUtils.getLogger();
 
-    public MysticalMoreCrops(FMLJavaModLoadingContext context) {
-        IEventBus modEventBus = context.getModEventBus();
+    public MysticalMoreCrops() throws NoSuchFieldException, IllegalAccessException {
+        IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModBlocks.REGISTRY.register(modEventBus);
         ModItems.REGISTRY.register(modEventBus);
