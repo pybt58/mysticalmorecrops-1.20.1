@@ -1,0 +1,8 @@
+
+#General configuration options.
+[General]
+	#Should the crop " prosperity " be enabled?
+	prosperityCropEnabled = true
+	#Should the crop " supremium " be enabled?
+	spuremiumCropEnabled = true
+

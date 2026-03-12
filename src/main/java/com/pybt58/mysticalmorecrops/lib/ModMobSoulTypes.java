@@ -16,33 +16,33 @@ public final class ModMobSoulTypes {
     // 以下は "examplemod:ex1-1"と"examplemod:ex1-2"をResourceLocationとするモブのMobSoulTypeを定義する例
     //
     // mobのSetsを定義
-    //private static final Set<ResourceLocation> EXAMPLEMOB_IDS = Sets.newHashSet(ResourceLocation.parse("examplemod:ex1-1"), ResourceLocation.parse("examplemod:ex1-2"));
+    //private static final Set<ResourceLocation> EXAMPLEMOB_IDS = Sets.newHashSet(new ResourceLocation("examplemod:ex1-1"), new ResourceLocation("examplemod:ex1-2"));
 
     // ソウルタイプ”魚”の定義
     // public static final MobSoulType FISH = new MobSoulType(MysticalMoreCrops.resource("fish"), FISH_IDS, "fish", 6, 12691306);
-    private static final Set<ResourceLocation> ALLAY_IDS = Sets.newHashSet(ResourceLocation.parse("minecraft:allay"), ResourceLocation.parse("minecraft:vex"));
-    private static final Set<ResourceLocation> AMPHIBIAN_IDS = Sets.newHashSet(ResourceLocation.parse("minecraft:axolotl"), ResourceLocation.parse("minecraft:frog"), ResourceLocation.parse("minecraft:tadpole"));
-    private static final Set<ResourceLocation> BAT_IDS = Sets.newHashSet(ResourceLocation.parse("minecraft:bat"));
-    private static final Set<ResourceLocation> BEAR_IDS = Sets.newHashSet(ResourceLocation.parse("minecraft:panda"), ResourceLocation.parse("minecraft:polar_bear"));
-    private static final Set<ResourceLocation> CAT_IDS = Sets.newHashSet(ResourceLocation.parse("minecraft:cat"), ResourceLocation.parse("minecraft:ocelot"));
-    private static final Set<ResourceLocation> DOLPHIN_IDS = Sets.newHashSet(ResourceLocation.parse("minecraft:dolphin"));
-    private static final Set<ResourceLocation> FOX_IDS = Sets.newHashSet(ResourceLocation.parse("minecraft:fox"));
-    private static final Set<ResourceLocation> GOLEM_IDS = Sets.newHashSet(ResourceLocation.parse("minecraft:iron_golem"), ResourceLocation.parse("minecraft:snow_golem"), ResourceLocation.parse("minecraft:warden"));
-    private static final Set<ResourceLocation> HORSE_IDS = Sets.newHashSet(ResourceLocation.parse("minecraft:horse"), ResourceLocation.parse("minecraft:donkey"), ResourceLocation.parse("minecraft:mule"), ResourceLocation.parse("minecraft:skeleton_horse"));
-    private static final Set<ResourceLocation> HUMAN_IDS = Sets.newHashSet(ResourceLocation.parse("minecraft:pillager"), ResourceLocation.parse("minecraft:vindicator"), ResourceLocation.parse("minecraft:witch"), ResourceLocation.parse("minecraft:evoker"), ResourceLocation.parse("minecraft:piglin"), ResourceLocation.parse("minecraft:piglin_brute"));
-    private static final Set<ResourceLocation> LLAMA_IDS = Sets.newHashSet(ResourceLocation.parse("minecraft:camel"), ResourceLocation.parse("minecraft:llama"), ResourceLocation.parse("minecraft:trader_llama"));
-    private static final Set<ResourceLocation> MITE_IDS = Sets.newHashSet(ResourceLocation.parse("minecraft:endermite"), ResourceLocation.parse("minecraft:silverfish"));
-    private static final Set<ResourceLocation> SHULKER_IDS = Sets.newHashSet(ResourceLocation.parse("minecraft:shulker"));
-    private static final Set<ResourceLocation> SNIFFER_IDS = Sets.newHashSet(ResourceLocation.parse("minecraft:sniffer"));
-    private static final Set<ResourceLocation> STRIDER_IDS = Sets.newHashSet(ResourceLocation.parse("minecraft:strider"));
-    private static final Set<ResourceLocation> WOLF_IDS = Sets.newHashSet(ResourceLocation.parse("minecraft:wolf"));
+    private static final Set<ResourceLocation> ALLAY_IDS = Sets.newHashSet(MysticalMoreCrops.resource("minecraft:allay"), new ResourceLocation("minecraft:vex"));
+    private static final Set<ResourceLocation> AMPHIBIAN_IDS = Sets.newHashSet(new ResourceLocation("minecraft:axolotl"), new ResourceLocation("minecraft:frog"), new ResourceLocation("minecraft:tadpole"));
+    private static final Set<ResourceLocation> BAT_IDS = Sets.newHashSet(new ResourceLocation("minecraft:bat"));
+    private static final Set<ResourceLocation> BEAR_IDS = Sets.newHashSet(new ResourceLocation("minecraft:panda"), new ResourceLocation("minecraft:polar_bear"));
+    private static final Set<ResourceLocation> CAT_IDS = Sets.newHashSet(new ResourceLocation("minecraft:cat"), new ResourceLocation("minecraft:ocelot"));
+    private static final Set<ResourceLocation> DOLPHIN_IDS = Sets.newHashSet(new ResourceLocation("minecraft:dolphin"));
+    private static final Set<ResourceLocation> FOX_IDS = Sets.newHashSet(new ResourceLocation("minecraft:fox"));
+    private static final Set<ResourceLocation> GOLEM_IDS = Sets.newHashSet(new ResourceLocation("minecraft:iron_golem"), new ResourceLocation("minecraft:snow_golem"), new ResourceLocation("minecraft:warden"));
+    private static final Set<ResourceLocation> HORSE_IDS = Sets.newHashSet(new ResourceLocation("minecraft:horse"), new ResourceLocation("minecraft:donkey"), new ResourceLocation("minecraft:mule"), new ResourceLocation("minecraft:skeleton_horse"));
+    private static final Set<ResourceLocation> HUMAN_IDS = Sets.newHashSet(new ResourceLocation("minecraft:pillager"), new ResourceLocation("minecraft:vindicator"), new ResourceLocation("minecraft:witch"), new ResourceLocation("minecraft:evoker"), new ResourceLocation("minecraft:piglin"), new ResourceLocation("minecraft:piglin_brute"));
+    private static final Set<ResourceLocation> LLAMA_IDS = Sets.newHashSet(new ResourceLocation("minecraft:camel"), new ResourceLocation("minecraft:llama"), new ResourceLocation("minecraft:trader_llama"));
+    private static final Set<ResourceLocation> MITE_IDS = Sets.newHashSet(new ResourceLocation("minecraft:endermite"), new ResourceLocation("minecraft:silverfish"));
+    private static final Set<ResourceLocation> SHULKER_IDS = Sets.newHashSet(new ResourceLocation("minecraft:shulker"));
+    private static final Set<ResourceLocation> SNIFFER_IDS = Sets.newHashSet(new ResourceLocation("minecraft:sniffer"));
+    private static final Set<ResourceLocation> STRIDER_IDS = Sets.newHashSet(new ResourceLocation("minecraft:strider"));
+    private static final Set<ResourceLocation> WOLF_IDS = Sets.newHashSet(new ResourceLocation("minecraft:wolf"));
     private static final Set<ResourceLocation> EVIL_IDS = Sets.newHashSet();// 村人を倒してもHUMANは手に入らないし、普通のイリジャー系を倒してもEVILは手に入らない
 
     // ここで、併用するmodに応じてSetsは変更できる。 下の例では、"examplemod2"をmodidとするmodがロードされるなら、"examplemod2:ex2-1"を追加するようにしている
     //
     //static{
     //      if(ModList.get().isLoaded("examplemod2")) {
-    //              EXAMPLEMOB_IDS.add( ResourceLocation.parse("examplemod2:ex2-1"));
+    //              EXAMPLEMOB_IDS.add( new ResourceLocation("examplemod2:ex2-1"));
     //      }
     //}
     //
@@ -50,7 +50,7 @@ public final class ModMobSoulTypes {
     //
     //static{
     //      if(ModList.get().isLoaded("examplemod2")) {
-    //              EXAMPLEMOB_IDS.addAll( Sets.newHashSet(ResourceLocation.parse("examplemod2:ex2-1"), ResourceLocation.parse("examplemod:ex1-3")));
+    //              EXAMPLEMOB_IDS.addAll( Sets.newHashSet(new ResourceLocation("examplemod2:ex2-1"), new ResourceLocation("examplemod:ex1-3")));
     //      }
     //
     // もちろんSetsから要素を削除することもできる。肝心なのは、この段階でMobSoulTypeに対応するMobの集合の情報を確定させること。例の場合は EXAMPLE_IDS に対応する全てのMobのResourceLocationを過不足なく格納させること
@@ -82,31 +82,31 @@ public final class ModMobSoulTypes {
     // ↑ここまで新たなmobSoulTypeの作成 ↓ここから既存のmobSoulTypeの改変
     // MobSoulTypeの改変用Map MobSoulTypeのResourceLocation:そのソウルタイプの対象に追加するモブのResourceLocationのリスト
     private static final Set<ResourceLocation> AD_BLAZE_IDS = new HashSet<>();
-    private static final Set<ResourceLocation> AD_CHICKEN_IDS = new HashSet<>(Set.of(ResourceLocation.parse("minecraft:parrot")));
-    private static final Set<ResourceLocation> AD_COW_IDS = new HashSet<>(Set.of(ResourceLocation.parse("minecraft:mooshroom"), ResourceLocation.parse("minecraft:ravager")));
+    private static final Set<ResourceLocation> AD_CHICKEN_IDS = new HashSet<>(Set.of(new ResourceLocation("minecraft:parrot")));
+    private static final Set<ResourceLocation> AD_COW_IDS = new HashSet<>(Set.of(new ResourceLocation("minecraft:mooshroom"), new ResourceLocation("minecraft:ravager")));
     private static final Set<ResourceLocation> AD_CREEPER_IDS = new HashSet<>();
     private static final Set<ResourceLocation> AD_ENDERMAN_IDS = new HashSet<>();
-    private static final Set<ResourceLocation> AD_FISH_IDS = new HashSet<>(Set.of(ResourceLocation.parse("minecraft:guardian"), ResourceLocation.parse("minecraft:elder_guardian")));
+    private static final Set<ResourceLocation> AD_FISH_IDS = new HashSet<>(Set.of(new ResourceLocation("minecraft:guardian"), new ResourceLocation("minecraft:elder_guardian")));
     private static final Set<ResourceLocation> AD_GHAST_IDS = new HashSet<>();
-    private static final Set<ResourceLocation> AD_PIG_IDS = new HashSet<>(Set.of(ResourceLocation.parse("minecraft:hoglin")));
+    private static final Set<ResourceLocation> AD_PIG_IDS = new HashSet<>(Set.of(new ResourceLocation("minecraft:hoglin")));
     private static final Set<ResourceLocation> AD_RABBIT_IDS = new HashSet<>();
-    private static final Set<ResourceLocation> AD_SHEEP_IDS = new HashSet<>(Set.of(ResourceLocation.parse("minecraft:goat")));
+    private static final Set<ResourceLocation> AD_SHEEP_IDS = new HashSet<>(Set.of(new ResourceLocation("minecraft:goat")));
     private static final Set<ResourceLocation> AD_SKELETON_IDS = new HashSet<>();
-    private static final Set<ResourceLocation> AD_SLIME_IDS = new HashSet<>(Set.of(ResourceLocation.parse("minecraft:magma_cube")));
+    private static final Set<ResourceLocation> AD_SLIME_IDS = new HashSet<>(Set.of(new ResourceLocation("minecraft:magma_cube")));
     private static final Set<ResourceLocation> AD_SPIDER_IDS = new HashSet<>();
-    private static final Set<ResourceLocation> AD_SQUID_IDS = new HashSet<>(Set.of(ResourceLocation.parse("minecraft:glow_squid")));
+    private static final Set<ResourceLocation> AD_SQUID_IDS = new HashSet<>(Set.of(new ResourceLocation("minecraft:glow_squid")));
     private static final Set<ResourceLocation> AD_TURTLE_IDS = new HashSet<>();
     private static final Set<ResourceLocation> AD_WITHER_IDS = new HashSet<>();
-    private static final Set<ResourceLocation> AD_ZOMBIE_IDS = new HashSet<>(Set.of(ResourceLocation.parse("minecraft:zombified_piglin"), ResourceLocation.parse("minecraft:zoglin")));
+    private static final Set<ResourceLocation> AD_ZOMBIE_IDS = new HashSet<>(Set.of(new ResourceLocation("minecraft:zombified_piglin"), new ResourceLocation("minecraft:zoglin")));
 
     public static final Map<ResourceLocation, Set<ResourceLocation>> MODIFY_ENTITY_ADDITIONS_MAP = new HashMap<>();
     static{
         // 他modのmobを、mystical agriculture modが元から実装しているMobSoulTypeに組み込む場合、ここで AD_ValueName_IDS に追加
         /*
         if (ModList.get().isLoaded("grimoireofgaia")) {
-            AD_SPIDER_IDS.addAll(Set.of(ResourceLocation.parse("grimoireoffaia:arachne"),・・・));
-            AD_ENDERMAN_IDS.addAll(Set.of(ResourceLocation.parse("grimoireofgaia:behender"),・・・));
-            AD_SKELETON_IDS.addAll(Set.of(ResourceLocation.parse("grimoireofgaia:bone_knight"),・・・));
+            AD_SPIDER_IDS.addAll(Set.of(new ResourceLocation("grimoireoffaia:arachne"),・・・));
+            AD_ENDERMAN_IDS.addAll(Set.of(new ResourceLocation("grimoireofgaia:behender"),・・・));
+            AD_SKELETON_IDS.addAll(Set.of(new ResourceLocation("grimoireofgaia:bone_knight"),・・・));
         }
         */
 

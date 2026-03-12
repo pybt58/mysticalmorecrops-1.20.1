@@ -28,7 +28,7 @@ public class BlockModelJsonGeneratorForMA extends BlockStateProvider {
             var stemModel = type.getStemModel();
 
             for (int i = 0; i <= 7; i++) {
-                models[i] = new ModelFile.UncheckedModelFile(ResourceLocation.fromNamespaceAndPath(stemModel.getNamespace(), stemModel.getPath() + "_" + i));
+                models[i] = new ModelFile.UncheckedModelFile(new ResourceLocation(stemModel.getNamespace(), stemModel.getPath() + "_" + i));
             }
 
             stemModels.put(type.getId(), models);

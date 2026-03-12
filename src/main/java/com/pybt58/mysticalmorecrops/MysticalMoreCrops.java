@@ -44,10 +44,10 @@ public class MysticalMoreCrops
     }
 
     public static ResourceLocation resource(String path) {
-        return ResourceLocation.fromNamespaceAndPath(MOD_ID, path);
+        return new ResourceLocation(MOD_ID, path);
     }
 
     public static ResourceLocation maResource(String path) {
-        return ResourceLocation.fromNamespaceAndPath(MysticalAgriculture.MOD_ID, path);
+        return new ResourceLocation(MysticalAgriculture.MOD_ID, path);
     }
 }
