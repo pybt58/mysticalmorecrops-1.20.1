@@ -6,13 +6,13 @@ Most mobs drop a corresponding soul item, which can be used to obtain their spaw
 
 The following mobs are excluded from this system:
 
-Bee (already exist as resource type crop)
+・Bee (already exist as resource type crop)
 
-Villager (nothing should drop form the Villager)
+・Villager (nothing should drop form the Villager)
 
-Ender Dragon (out of tier range)
+・Ender Dragon (out of tier range)
 
-Wither (out of tier range)
+・Wither (out of tier range)
 
 This mod aims to make more mobs compatible with Mystical Agriculture.
 

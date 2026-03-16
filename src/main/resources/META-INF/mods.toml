@@ -36,14 +36,12 @@ description='''${mod_description}'''
 [[dependencies.${mod_id}]]
     modId="cucumber"
     mandatory = true
-    type="required"
     versionRange="[${cucumber_version},)"
     ordering="NONE"
     side="BOTH"
 [[dependencies.${mod_id}]]
     modId="mysticalagriculture"
     mandatory = true
-    type="required"
     versionRange="[${mysticalagriculture_version},)"
     ordering="AFTER"
     side="BOTH"

@@ -115,7 +115,7 @@ public final class ModMobSoulTypes {
     }
 
     // このmodおよび他のmodのMobSoulTypeの対象Mobを追加する、mixinでの使用も可能
-    public static void addMobsToSoulType(ResourceLocation soulType, Set<ResourceLocation> mobIds) {
+    private static void addMobsToSoulType(ResourceLocation soulType, Set<ResourceLocation> mobIds) {
         MODIFY_ENTITY_ADDITIONS_MAP.computeIfAbsent(soulType, s -> new HashSet<>()).addAll(mobIds);
     }
 
