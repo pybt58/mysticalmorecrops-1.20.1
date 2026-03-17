@@ -5,8 +5,18 @@
   "mysticalmorecrops.configuration.section.mysticalmorecrops.common.toml": "Mystical More Crops Configs",
   "mysticalmorecrops.configuration.section.mysticalmorecrops.common.toml.title": "Mystical More Crops Configs",
 
+  "block.mysticalmorecrops.enchanted_golden_apple_crux": "エンチャントされた金のリンゴの核",
+
   "item.mysticalmorecrops.blank_egg": "空の卵",
   "item.mysticalmorecrops.evil_intention": "邪悪な意思",
+
+  "item.mysticalmorecrops.boss_blank_egg": "ボス用の空の卵",
+  "item.mysticalmorecrops.dt_occluded_ingot_uranium": "D-T燃料吸蔵ウランインゴット",
+  "item.mysticalmorecrops.enriched_pellet_antimatter": "濃縮反物質ペレット",
+  "item.mysticalmorecrops.super_enriched_pellet_antimatter": "超濃縮反物質ペレット",
+  "item.mysticalmorecrops.nuf_agglomeration": "Naquadah Uranium Fuelの凝集物",
+  "item.mysticalmorecrops.enriched_nuf_agglomeration": "濃縮Naquadah Uranium Fuelの凝集物",
+  "item.mysticalmorecrops.super_enriched_nuf_agglomeration": "超濃縮Naquadah Uranium Fuelの凝集物",
 
   "mobSoulType.mysticalmorecrops.allay": "アレイ",
   "mobSoulType.mysticalmorecrops.amphibian": "両生類",
@@ -48,6 +58,16 @@
   "crop.mysticalmorecrops.strider": "ストライダー",
   "crop.mysticalmorecrops.wolf": "オオカミ",
   "crop.mysticalmorecrops.evil": "邪悪",
+
+  "crop.mysticalmorecrops.enchanted_golden_apple": "エンチャントされた金のリンゴ",
+  "crop.mysticalmorecrops.antimatter": "反物質",
+  "crop.mysticalmorecrops.dt_fuel": "D-T燃料",
+  "crop.mysticalmorecrops.naquadah": "ナクアダ",
+  "crop.mysticalmorecrops.naquadah_uranium_fuel": "Naquadah Uranium Fuel",
+  "crop.mysticalmorecrops.enriched_thermonuclear": "濃縮熱核",
+
+  "tooltip.mysticalmorecrops.enchanted_golden_apple_seeds": "かさばらない回復アイテムが使い放題",
+  "tooltip.mysticalmorecrops.antimatter_seeds": "…そんなに無限の反物質が欲しかったのか？",
 
   "jei.desc.mysticalmorecrops.evil_intention": "神秘の啓示のエンチャントが付与されたエッセンスの武器で、略奪隊のリーダーや襲撃隊のキャプテン（不吉な旗を持った邪悪な村人）を倒したときにドロップします。\n\nヒント: 旗持ちを倒してもドロップした不吉な旗をすぐには拾わないことを勧めます。他の邪悪な村人が旗を拾い、新しいリーダまたはキャプテンになり、それを倒すことでさらに邪悪な意思を手に入れることができます！"
 }

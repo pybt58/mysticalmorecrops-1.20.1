@@ -5,8 +5,18 @@
   "mysticalmorecrops.configuration.section.mysticalmorecrops.common.toml": "Mystical More Crops Configs",
   "mysticalmorecrops.configuration.section.mysticalmorecrops.common.toml.title": "Mystical More Crops Configs",
 
+  "block.mysticalmorecrops.enchanted_golden_apple_crux": "Enchanted Golden Apple Crux",
+
   "item.mysticalmorecrops.blank_egg": "Blank Egg",
   "item.mysticalmorecrops.evil_intention": "Evil Intention",
+
+  "item.mysticalmorecrops.boss_blank_egg": "Boss Blank Egg",
+  "item.mysticalmorecrops.dt_occluded_ingot_uranium": "D-T Occluded Uranium Ingot",
+  "item.mysticalmorecrops.enriched_pellet_antimatter": "Enriched Antimatter Pellet",
+  "item.mysticalmorecrops.super_enriched_pellet_antimatter": "Super Enriched Antimatter Pellet",
+  "item.mysticalmorecrops.nuf_agglomeration": "Naquadah Uranium Fuel Agglomeratio",
+  "item.mysticalmorecrops.enriched_nuf_agglomeration": "Enriched Naquadah Uranium Fuel Agglomeratio",
+  "item.mysticalmorecrops.super_enriched_nuf_agglomeration": "Super Enriched Naquadah Uranium Fuel Agglomeratio",
 
   "mobSoulType.mysticalmorecrops.allay": "Allay",
   "mobSoulType.mysticalmorecrops.amphibian": "Amphibian",
@@ -48,6 +58,16 @@
   "crop.mysticalmorecrops.strider": "Strider",
   "crop.mysticalmorecrops.wolf": "Wolf",
   "crop.mysticalmorecrops.evil": "Evil",
+
+  "crop.mysticalmorecrops.enchanted_golden_apple": "Enchanted Golden Apple",
+  "crop.mysticalmorecrops.antimatter": "Antimatter",
+  "crop.mysticalmorecrops.dt_fuel": "D-T Fuel",
+  "crop.mysticalmorecrops.naquadah": "Naquadah",
+  "crop.mysticalmorecrops.naquadah_uranium_fuel": "Naquadah Uranium Fuel",
+  "crop.mysticalmorecrops.enriched_thermonuclear": "Enriched Thermonuclear",
+
+  "tooltip.mysticalmorecrops.enchanted_golden_apple_seeds": "Not Bulky : It's better than Potions and Totems at this points",
+  "tooltip.mysticalmorecrops.antimatter_seeds": "ANTI-REAL : Did you really want an infinite amount of antimatter that badly?",
 
   "jei.desc.mysticalmorecrops.evil_intention": "Dropped by the Patrol Leader or Raid Captain (Illager with an Ominous Banner) when killed with an Essence Weapon enchanted with Mystical Enlightenment.\n\nTip: Kill the banner carrier and leave the banner on the ground. Other Illagers may pick it up and become the new leader or captain, letting you farm ADDITIONAL Evil Intention!"
 }

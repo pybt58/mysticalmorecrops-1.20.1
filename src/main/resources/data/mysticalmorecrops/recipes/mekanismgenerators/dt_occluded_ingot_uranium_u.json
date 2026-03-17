@@ -1,0 +1,36 @@
+{
+  "type": "mekanism:reaction",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mekanismgenerators"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mekanism"
+    }
+  ],
+  "itemInput": {
+    "count": 1,
+    "ingredient": {
+      "item": "mysticalmorecrops:dt_occluded_ingot_uranium"
+    }
+  },
+  "fluidInput": {
+    "amount": 500,
+    "fluid": "mekanism:uranium_oxide"
+  },
+  "gasInput": {
+    "amount": 10,
+    "gas": "mekanism:hydrogen"
+  },
+  "duration": 100,
+  "itemOutput": {
+    "count": 2,
+    "item": "mekanism:ingot_uranium"
+  },
+  "gasOutput": {
+    "amount": 10000,
+    "gas": "mekanismgenerators:fusion_fuel"
+  }
+}

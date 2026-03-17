@@ -1,0 +1,18 @@
+{
+  "type": "mekanism:oxidizing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mekanism_extras"
+    }
+  ],
+  "input": {
+    "ingredient": {
+      "item": "mysticalmorecrops:nuf_agglomeration"
+    }
+  },
+  "output": {
+    "gas": "mekanism_extras:naquadah_uranium_fuel",
+    "amount": 2500
+  }
+}

@@ -26,6 +26,8 @@ public class MysticalMoreCrops
     public static final String NAME = "Mystical More Crops";
     public static final Logger LOGGER = LogUtils.getLogger();
 
+    public static final String MAG_ID = "mysticalagradditions";
+
     public MysticalMoreCrops() throws NoSuchFieldException, IllegalAccessException {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
@@ -59,8 +61,11 @@ public class MysticalMoreCrops
 }
 
 // CAUTION
-// runData タスク実行時におそらくcucumberの不備?によるinvokeエラーが発生するため、
-// 最新版の他のmodとの連携をrunClientタスクで確かめたい場合、バージョンを切り替えること
+// 使用可能なバージョン範囲の維持や、runData でのcucumber由来と思われるエラーを回避するため、開発環境のforgeなどのバージョンを古めにしている。
+// そのため、mekanism_extrasにおいてNaquadah炉関連アイテムの不一致及び一部のレシピ無効が起きている。レシピの機能の確認は最新バージョンに合わせた実環境で行うこと
 
 // 1.21.1バージョン作成時に、液体バケツを指すingredientを E:{ "tag": "c:buckets/lava" } のようにする
 // phantom のレシピは1.21.1で変更　phantomのCropが新設されているため
+
+// 一部modが無効な環境でも正常に動くか？←多分大丈夫
+// readme更新

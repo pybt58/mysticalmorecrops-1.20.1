@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalmorecrops:naquadah_uranium_fuel"
+    }
+  ],
+  "pattern": [
+    "EEE",
+    "EEE",
+    "EEE"
+  ],
+  "key": {
+    "E": {
+      "item": "mysticalagriculture:naquadah_uranium_fuel_essence"
+    }
+  },
+  "result": {
+    "item": "mysticalmorecrops:nuf_agglomeration",
+    "count": 1
+  }
+}

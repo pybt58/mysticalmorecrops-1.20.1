@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smelting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mekanismgenerators"
+    }
+  ],
+  "ingredient": {
+    "item": "mysticalmorecrops:dt_occluded_ingot_uranium"
+  },
+  "result": "mekanism:ingot_uranium",
+  "experience": 0.3,
+  "cookingtime": 200
+}

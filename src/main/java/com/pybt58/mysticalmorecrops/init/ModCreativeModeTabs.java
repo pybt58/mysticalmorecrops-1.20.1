@@ -11,6 +11,7 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
+import net.minecraftforge.fml.ModList;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 
@@ -21,10 +22,30 @@ public final class ModCreativeModeTabs {
             .icon(() -> new ItemStack(ModItems.BLANK_EGG.get()))
             .displayItems(FeatureFlagDisplayItemGenerator.create((parameters, output) -> {
 
-                // このmodで追加されたModBlock
-                // このmodで追加されたModItem
-                output.accept(ModItems.EVIL_INTENTION.get());
                 output.accept(ModItems.BLANK_EGG.get());
+                if(ModList.get().isLoaded(MysticalMoreCrops.MAG_ID)) {
+                    output.accept(ModItems.BOSS_BLANK_EGG);
+                }
+                output.accept(ModItems.EVIL_INTENTION.get());
+
+                if(ModList.get().isLoaded(MysticalMoreCrops.MAG_ID)) {
+                    output.accept(ModBlocks.ENCHANTED_GOLDEN_APPLE_CRUX.get());
+
+                    if(ModList.get().isLoaded("mekanism")) {
+                        output.accept(ModItems.ENRICHED_PELLET_ANTIMATTER.get());
+                        output.accept(ModItems.SUPER_ENRICHED_PELLET_ANTIMATTER.get());
+                    }
+
+                    if(ModList.get().isLoaded("mekanismgenerators")) {
+                        output.accept(ModItems.DT_OCCLUDED_INGOT_URANIUM.get());
+                    }
+
+                    if(ModList.get().isLoaded("mekanism_extras")) {
+                        output.accept(ModItems.NUF_AGGLOMERATION.get());
+                        output.accept(ModItems.ENRICHED_NUF_AGGLOMERATION.get());
+                        output.accept(ModItems.SUPER_ENRICHED_NUF_AGGLOMERATION.get());
+                    }
+                }
 
                 for (var type : MobSoulTypeRegistry.getInstance().getMobSoulTypes()) {
                     if (type.isEnabled() && type.getModId().equals(MysticalMoreCrops.MOD_ID)) {

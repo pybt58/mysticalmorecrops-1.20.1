@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mekanism_extras"
+    }
+  ],
+  "pattern": [
+    "NUF",
+    "OOO",
+    "NUF"
+  ],
+  "key": {
+    "N": {
+      "item": "mekanism_extras:rich_naquadah_fuel_bucket"
+    },
+    "U": {
+      "item": "mekanism_extras:rich_uranium_fuel_bucket"
+    },
+    "F": {
+      "item": "mekanism_extras:fluorinated_naquadah_uranium_fuel_bucket"
+    },
+    "O": {
+      "item": "mekanism:dust_osmium"
+    }
+  },
+  "result": {
+    "item": "mysticalmorecrops:nuf_agglomeration",
+    "count": 2
+  }
+}

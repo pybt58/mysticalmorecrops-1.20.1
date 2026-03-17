@@ -106,8 +106,12 @@ public final class ModCrops {
         // 注意:soulのResourceLocationのnamespaceはmysticalmorecropsだが、エッセンス、種のnamespaceは"mysticalagriculture"である
     }
 
-    private static Crop withRequiredMods(Crop crop, String... mods) {
+    public static Crop withRequiredAnyMods(Crop crop, String... mods) {
         boolean enabled = Arrays.stream(mods).anyMatch(ModList.get()::isLoaded);
+        return crop.setEnabled(enabled);
+    }
+    public static Crop withRequiredAllMods(Crop crop, String... mods) {
+        boolean enabled = Arrays.stream(mods).allMatch(ModList.get()::isLoaded);
         return crop.setEnabled(enabled);
     }
 

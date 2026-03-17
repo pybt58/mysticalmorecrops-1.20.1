@@ -1,0 +1,36 @@
+{
+  "type": "mekanism:reaction",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mekanismgenerators"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mekanism"
+    }
+  ],
+  "itemInput": {
+    "count": 1,
+    "ingredient": {
+      "tag": "forge:ingots/uranium"
+    }
+  },
+  "fluidInput": {
+    "amount": 10,
+    "tag": "minecraft:water"
+  },
+  "gasInput": {
+    "amount": 10000,
+    "gas": "mekanismgenerators:fusion_fuel"
+  },
+  "duration": 100,
+  "itemOutput": {
+    "count": 1,
+    "item": "mysticalmorecrops:dt_occluded_ingot_uranium"
+  },
+  "gasOutput": {
+    "amount": 10,
+    "gas": "mekanism:water_vapor"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalmorecrops:enriched_thermonuclear"
+    }
+  ],
+  "pattern": [
+    "EEE",
+    "EEE",
+    "EEE"
+  ],
+  "key": {
+    "E": {
+      "item": "mysticalagriculture:enriched_thermonuclear_essence"
+    }
+  },
+  "result": {
+    "item": "mekanism_extras:enriched_thermonuclear",
+    "count": 1
+  }
+}

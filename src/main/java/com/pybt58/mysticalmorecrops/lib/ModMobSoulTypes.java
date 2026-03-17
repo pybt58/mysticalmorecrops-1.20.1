@@ -137,7 +137,6 @@ public final class ModMobSoulTypes {
         addMobsToSoulType(MysticalMoreCrops.maResource("turtle"), AD_TURTLE_IDS);
         addMobsToSoulType(MysticalMoreCrops.maResource("wither_skeleton"), AD_WITHER_IDS);
         addMobsToSoulType(MysticalMoreCrops.maResource("zombie"), AD_ZOMBIE_IDS);
-        // mixin target ここでaddMobsToSoulType()使用
     }
 
     // このmodで追加する新たなMobSoulTypeを登録する。ModCorePlugin内で実行

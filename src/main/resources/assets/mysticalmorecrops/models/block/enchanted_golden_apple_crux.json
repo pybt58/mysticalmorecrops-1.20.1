@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "mysticalmorecrops:block/enchanted_golden_apple_crux"
+  }
+}

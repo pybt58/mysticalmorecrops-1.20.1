@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalmorecrops:enchanted_golden_apple"
+    }
+  ],
+  "pattern": [
+    "EAE",
+    "AGA",
+    "EAE"
+  ],
+  "key": {
+    "E": {
+      "item": "mysticalagradditions:insanium_essence"
+    },
+    "A": {
+      "item": "minecraft:enchanted_golden_apple"
+    },
+    "G": {
+      "item": "minecraft:gold_block"
+    }
+  },
+  "result": {
+    "item": "mysticalmorecrops:enchanted_golden_apple_crux",
+    "count": 1
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "mysticalmorecrops:item/dt_occluded_ingot_uranium"
+  }
+}

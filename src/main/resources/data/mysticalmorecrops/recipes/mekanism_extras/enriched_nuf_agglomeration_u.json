@@ -1,0 +1,18 @@
+{
+  "type": "mekanism:crushing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mekanism_extras"
+    }
+  ],
+  "input": {
+    "ingredient": {
+      "item": "mysticalmorecrops:enriched_nuf_agglomeration"
+    }
+  },
+  "output": {
+    "item": "mysticalmorecrops:nuf_agglomeration",
+    "count": 64
+  }
+}
