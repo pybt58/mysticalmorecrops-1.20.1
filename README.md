@@ -27,13 +27,15 @@ Most mobs are associated with a soul from Mystical Agriculture.
 ## New crops
 This mod adds these crops.
 ### resource
-supremium (You can disable this in the config)
+・supremium (You can disable this in the config)
 
-prosperity (You can disable this in the config)
+・prosperity (You can disable this in the config)
 
-soulstone
+・soulstone
 
-sculk
+・sculk
+
+・enchanted golden apple (Tier 6, need Mystical Agradditions)
 
 sponge
 ### mob
@@ -90,4 +92,18 @@ squid (+ glow squid)
 
 zombie (+ zombified piglin, zoglin)
 
+# Integration with other mods
 
+## Mekanism
+
+・Antimatter (need 16384 "Antimatter Pellets"/1 seeds item)
+
+## Mekanism Generators
+
+・D-T Fuel (need "D-T Fuel(Gas)" 40000mB/seeds)
+
+## Mekanism Extras
+
+・Naquadah (need 4 "naquadah ingots"/seeds)
+
+・Naquadah Uranium Fuel (need "Rich Uranium Fuel", "Rich Naquadah Uranium Fuel" and "Fluorinated Naquadah Uranium Fuel", each 16,384,000mB, ) (This may be disabled if you use old version of Mekanism Extras)
