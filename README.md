@@ -95,15 +95,15 @@ This mod modify some mob crops.
 
 # Integration with other mods
 
-## Mekanism
+### Mekanism
 
 ・Antimatter (need 16384 "Antimatter Pellets"/1 seeds item)
 
-## Mekanism Generators
+### Mekanism Generators
 
 ・D-T Fuel (need "D-T Fuel(Gas)" 40000mB/seeds)
 
-## Mekanism Extras
+### Mekanism Extras
 
 ・Naquadah (need 4 "naquadah ingots"/seeds)
 
