@@ -67,5 +67,5 @@ public class MysticalMoreCrops
 // 1.21.1バージョン作成時に、液体バケツを指すingredientを E:{ "tag": "c:buckets/lava" } のようにする
 // phantom のレシピは1.21.1で変更　phantomのCropが新設されているため
 
-// 一部modが無効な環境でも正常に動くか？←多分大丈夫
+// 一部modが無効な環境でも正常に動くか？←多分大丈夫と思われる
 // readme更新
