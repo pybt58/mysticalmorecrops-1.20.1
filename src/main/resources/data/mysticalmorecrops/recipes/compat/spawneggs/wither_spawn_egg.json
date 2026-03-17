@@ -15,7 +15,7 @@
   ],
   "ingredients": [
     {
-      "item": "minecraft:wither_rose:"
+      "item": "minecraft:wither_rose"
     },
     {
       "item": "mysticalagriculture:nether_star_essence"
@@ -27,7 +27,7 @@
       "item": "mysticalagriculture:nether_star_essence"
     },
     {
-      "item": "minecraft:wither_skeleton_spawn_egg"
+      "item": "minecraft:wither_rose"
     },
     {
       "item": "mysticalagriculture:nether_star_essence"
