@@ -8,9 +8,9 @@
   ],
   "input": {
     "ingredient": {
-      "item": "mysticalmorecrops:enriched_nuf_agglomeration",
-      "count": 64
-    }
+      "item": "mysticalmorecrops:enriched_nuf_agglomeration"
+    },
+    "amount": 64
   },
   "output": {
     "item": "mysticalmorecrops:super_enriched_nuf_agglomeration"

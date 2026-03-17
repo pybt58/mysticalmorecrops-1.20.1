@@ -1,7 +1,7 @@
 {
   "type": "mysticalagriculture:infusion",
   "input": {
-    "item": "mysticaladditionalcrops:boss_blank_egg"
+    "item": "mysticalmorecrops:boss_blank_egg"
   },
   "conditions": [
     {
@@ -15,7 +15,7 @@
   ],
   "ingredients": [
     {
-      "item": "mysticalagriculture:wither_resistance_augment"
+      "item": "minecraft:wither_rose:"
     },
     {
       "item": "mysticalagriculture:nether_star_essence"
@@ -27,7 +27,7 @@
       "item": "mysticalagriculture:nether_star_essence"
     },
     {
-      "item": "minecraft:wither_rose"
+      "item": "minecraft:wither_skeleton_spawn_egg"
     },
     {
       "item": "mysticalagriculture:nether_star_essence"
