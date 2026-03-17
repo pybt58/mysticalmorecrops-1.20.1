@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "mysticalmorecrops:item/seeds/dt_fuel_seeds"
+  }
+}

@@ -1,18 +1,19 @@
 # Mystical More Crops
 
-Mystical More Crops is an addon mod that expands Mystical Agriculture by integrating a wide variety of mobs into its crop system.
+Mystical More Crops is an addon mod that expands Mystical Agriculture by integrating all mobs of vanilla minecraft into its crop system.
 
-Most mobs drop a corresponding soul item, which can be used to obtain their spawn eggs through Mystical Agriculture recipes.
+Most mobs drop a corresponding "soul", which can be used to obtain some items including their spawn eggs through Mystical Agriculture recipes.
 
-The following mobs are excluded from this system:
+The following mobs don't drop "soul":
 
-・Bee (already exist as resource type crop)
+・Bee (use "honey" resource crop instead)
 
-・Villager (nothing should drop form the Villager)
+・Villager (nothing should drop form the Villager!)
 
-・Ender Dragon (out of tier range)
+The following mobs don't drop "soul" to utilize them further "Mystical Agradditions" mod is required:
+・Ender Dragon (use "dragon egg" crop instead)
 
-・Wither (out of tier range)
+・Wither (use "nether star" crop instead)
 
 This mod aims to make more mobs compatible with Mystical Agriculture.
 
@@ -90,54 +91,3 @@ squid (+ glow squid)
 zombie (+ zombified piglin, zoglin)
 
 
-# Other
-This mod is structured to make it easy to add support for additional resources in the Mystical Agriculture crop system.
-
-You can modify and use this under the MIT license.
-
-## How to add?
-See these files for details.(Written in Japanese, but it's not difficult.
-Reference, mimic and arrange existing codes.)
-
-[ModCrops.java](./src/main/java/com/pybt58/mysticalmorecrops/lib/ModCrops.java) 
-
-[ModMobSoulTypes.java](./src/main/java/com/pybt58/mysticalmorecrops/lib/ModMobSoulTypes.java)
-
-Do not forget to add recipe json files and asset files.  (But don't worry!  Even if you forget this, Mystical Agriculture may complement some elements.)
-
-Add new asset files them to the appropriate location in [this directory](./src/main/resources/assets/mysticalmorecrops) (or create new resourcepack).
-
-Add new recipe files them to the appropriate location in [this directory](./src/main/resources/data/mysticalmorecrops/recipes) (or create new datapack).
-
-About contents of file, reference files in these directories.
-
-[texture flower](./src/main/resources/assets/mysticalmorecrops/textures/block/flower)
-
-[texture essence](./src/main/resources/assets/mysticalmorecrops/textures/item/essence)
-
-[texture seeds](./src/main/resources/assets/mysticalmorecrops/textures/item/seeds)
-
-[model essence and seeds](./src/generated/resources/assets/mysticalagriculture/models/item)
-
-[model cropBlock](./src/generated/resources/assets/mysticalagriculture/models/block)
-
-[blockstates crop](./src/generated/resources/assets/mysticalagriculture/blockstates)
-
-[recipe crafting seed](./src/generated/resources/data/mysticalmorecrops/recipes/seed/crafting)(Disabled by default. You can skip this)
-
-[recipe infusion seed](./src/generated/resources/data/mysticalmorecrops/recipes/seed/infusion)
-
-[recipe reprocessor](./src/generated/resources/data/mysticalmorecrops/recipes/seed/reprocessor)
-
-Do not forget to add some recipe that [creates resource item from essence](./src/main/resources/data/mysticalmorecrops/recipes/essence)!
-
-And add some [soul_extraction](./src/main/resources/data/mysticalmorecrops/recipes/souls) recipe if you need.
-
-
-## 余談
-
-ボスとBeeとVillagerを除く全Mobに対応したCropを作成したのはいいのですが、Vanillaの範囲ではスポーンエッグ以外に使い道がないものが多いですね・・・
-
-(dolphinをどのCropに対応させようかな？ → 思いつかない！新しくdolphin Cropを作るか → dolphinのエッセンス、dolphinのスポーンエッグ作成以外に使い道を思いつかない問題発生)
-
-将来的に、他のmodのmobやresourceにも対応させたい。これで使い道の少ないエッセンスの価値が上がるといいのですが
