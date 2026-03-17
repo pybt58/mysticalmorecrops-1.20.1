@@ -11,6 +11,7 @@ The following mobs don't drop "soul":
 ・Villager (nothing should drop form the Villager!)
 
 The following mobs don't drop "soul" to utilize them further "Mystical Agradditions" mod is required:
+
 ・Ender Dragon (use "dragon egg" crop instead)
 
 ・Wither (use "nether star" crop instead)
@@ -39,58 +40,58 @@ This mod adds these crops.
 
 sponge
 ### mob
-allay (allay, vex)
+・allay (allay, vex)
 
-amphibian (frog, tadpole, axolotl)
+・amphibian (frog, tadpole, axolotl)
 
-bat
+・bat
 
-bear (polar bear, panda)
+・bear (polar bear, panda)
 
-cat (cat, ocelot)
+・cat (cat, ocelot)
 
-dolphin
+・dolphin
 
-fox
+・fox
 
-golem (iron golem, snow golem, warden)
+・golem (iron golem, snow golem, warden)
 
-horse (horse, donkey, mule, skeleton horse)
+・horse (horse, donkey, mule, skeleton horse)
 
-human (illager mobs, piglin, piglin brute, villager) (※Villagers don't drop human soul)
+・human (illager mobs, piglin, piglin brute, villager) (※Villagers don't drop human soul)
 
-llama (llama, trader llama, camel)
+・llama (llama, trader llama, camel)
 
-mite (ender mite, silver fish)
+・mite (ender mite, silver fish)
 
-shulker
+・shulker
 
-sniffer
+・sniffer
 
-strider
+・strider
 
-wolf
+・wolf
 
-evil (Player cannot get this soul from any mobs directly.)
+・evil (Player cannot get this soul from any mobs directly.)
 
 ## Modify crops
 This mod modify some mob crops.
 
-chicken (+ parrot)
+・chicken (+ parrot)
 
-cow (+ mooshroom, ravager)
+・cow (+ mooshroom, ravager)
 
-fish (+ guardian, elder guardian)
+・fish (+ guardian, elder guardian)
 
-pig (+ hoglin)
+・pig (+ hoglin)
 
-sheep (+ goat)
+・sheep (+ goat)
 
-slime (+ magma cube)
+・slime (+ magma cube)
 
-squid (+ glow squid)
+・squid (+ glow squid)
 
-zombie (+ zombified piglin, zoglin)
+・zombie (+ zombified piglin, zoglin)
 
 # Integration with other mods
 
