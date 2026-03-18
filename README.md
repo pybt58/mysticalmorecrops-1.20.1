@@ -107,4 +107,4 @@ This mod modify some mob crops.
 
 ・Naquadah (need 4 "naquadah ingots"/seeds)
 
-・Naquadah Uranium Fuel (need "Rich Uranium Fuel", "Rich Naquadah Uranium Fuel" and "Fluorinated Naquadah Uranium Fuel", each 16,384,000mB, ) (This may be disabled if you use old version of Mekanism Extras)
+・Naquadah Uranium Fuel (need "Rich Uranium Fuel", "Rich Naquadah Uranium Fuel" and "Fluorinated Naquadah Uranium Fuel", each 16,384,000mB and 24,576 osmium dust items) (This may be disabled if you use old version of Mekanism Extras)
