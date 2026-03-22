@@ -23,6 +23,10 @@ This mod aims to make more mobs compatible with Mystical Agriculture.
 [MIT License](./LICENSE)
 
 # Contents
+This mod adds many mystical crops, mainly mob crops.
+
+Caution: Tier 6 crops are available if you use this mod with "Mystical Agradditions" mod. 
+
 Most mobs are associated with a soul from Mystical Agriculture.
 
 ## New crops
@@ -36,7 +40,7 @@ This mod adds these crops.
 
 ・sculk
 
-・enchanted golden apple (Tier 6, need Mystical Agradditions)
+・enchanted golden apple (Tier 6)
 
 sponge
 ### mob
@@ -95,16 +99,24 @@ This mod modify some mob crops.
 
 # Integration with other mods
 
+### Mystical Agriculture & Cucumber Library
+
+This mod requires these mods.
+
+### Mystical Agradditions
+
+Remember, crops of tier 6 aren't available if this mod is Not exist in your modpack.
+
 ### Mekanism
 
-・Antimatter (need 16384 "Antimatter Pellets"/1 seeds item)
+・Antimatter (need 16384 "Antimatter Pellets"/1 seeds item) (Tier 6)
 
 ### Mekanism Generators
 
-・D-T Fuel (need "D-T Fuel(Gas)" 40000mB/seeds)
+・D-T Fuel (need "D-T Fuel(Gas)" 40000mB/seeds) (Tier 6)
 
 ### Mekanism Extras
 
-・Naquadah (need 4 "naquadah ingots"/seeds)
+・Naquadah (need 4 "naquadah ingots"/seeds) (Tier 6)
 
-・Naquadah Uranium Fuel (need "Rich Uranium Fuel", "Rich Naquadah Uranium Fuel" and "Fluorinated Naquadah Uranium Fuel", each 16,384,000mB and 24,576 osmium dust items) (This may be disabled if you use old version of Mekanism Extras)
+・Naquadah Uranium Fuel (need "Rich Uranium Fuel", "Rich Naquadah Uranium Fuel" and "Fluorinated Naquadah Uranium Fuel", each 16,384,000mB and 24,576 osmium dust items) (This may be disabled if you use old version of Mekanism Extras) (Tier 6)
