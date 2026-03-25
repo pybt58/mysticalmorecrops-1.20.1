@@ -5,6 +5,7 @@ import com.blakebr0.mysticalagriculture.MysticalAgriculture;
 import com.mojang.logging.LogUtils;
 import com.pybt58.mysticalmorecrops.client.ModItemTooltipHandler;
 import com.pybt58.mysticalmorecrops.config.ModConfigs;
+//import com.pybt58.mysticalmorecrops.crafting.DynamicRecipeManager;
 import com.pybt58.mysticalmorecrops.datagen.ModDataGenerators;
 import com.pybt58.mysticalmorecrops.handler.MobDropHandler;
 import com.pybt58.mysticalmorecrops.init.ModBlocks;
@@ -12,6 +13,7 @@ import com.pybt58.mysticalmorecrops.init.ModCreativeModeTabs;
 import com.pybt58.mysticalmorecrops.init.ModItems;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
@@ -45,6 +47,7 @@ public class MysticalMoreCrops
 
     private void commonSetup(FMLCommonSetupEvent event) {
         MinecraftForge.EVENT_BUS.register(new MobDropHandler());
+        //MinecraftForge.EVENT_BUS.register(DynamicRecipeManager.INSTANCE);
     }
 
     private void clientSetup(FMLClientSetupEvent event) {

@@ -25,7 +25,7 @@ public final class ModCrops {
     public static final Crop ALLAY = new Crop(MysticalMoreCrops.resource("allay"), CropTier.FOUR, CropType.MOB, LazyIngredient.item("mysticalagriculture:soul_jar", MobSoulUtils.makeTag(ModMobSoulTypes.ALLAY)));
     public static final Crop AMPHIBIAN = new Crop(MysticalMoreCrops.resource("amphibian"), CropTier.THREE, CropType.MOB, LazyIngredient.item("mysticalagriculture:soul_jar", MobSoulUtils.makeTag(ModMobSoulTypes.AMPHIBIAN)));
     public static final Crop BAT = new Crop(MysticalMoreCrops.resource("bat"), CropTier.TWO, CropType.MOB, LazyIngredient.item("mysticalagriculture:soul_jar", MobSoulUtils.makeTag(ModMobSoulTypes.BAT)));
-    public static final Crop BEAR = new Crop(MysticalMoreCrops.resource("bear"), CropTier.THREE, CropType.MOB, LazyIngredient.item("mysticalagriculture:soul_jar", MobSoulUtils.makeTag(ModMobSoulTypes.BEAR)));
+    public static final Crop BEAR = new Crop(MysticalMoreCrops.resource("bear"), CropTier.TWO, CropType.MOB, LazyIngredient.item("mysticalagriculture:soul_jar", MobSoulUtils.makeTag(ModMobSoulTypes.BEAR)));
     public static final Crop CAT = new Crop(MysticalMoreCrops.resource("cat"), CropTier.TWO, CropType.MOB, LazyIngredient.item("mysticalagriculture:soul_jar", MobSoulUtils.makeTag(ModMobSoulTypes.CAT)));
     public static final Crop DOLPHIN = new Crop(MysticalMoreCrops.resource("dolphin"), CropTier.TWO, CropType.MOB, LazyIngredient.item("mysticalagriculture:soul_jar", MobSoulUtils.makeTag(ModMobSoulTypes.DOLPHIN)));
     public static final Crop FOX = new Crop(MysticalMoreCrops.resource("fox"), CropTier.TWO, CropType.MOB, LazyIngredient.item("mysticalagriculture:soul_jar", MobSoulUtils.makeTag(ModMobSoulTypes.FOX)));
@@ -33,10 +33,10 @@ public final class ModCrops {
     public static final Crop HORSE = new Crop(MysticalMoreCrops.resource("horse"), CropTier.TWO, CropType.MOB, LazyIngredient.item("mysticalagriculture:soul_jar", MobSoulUtils.makeTag(ModMobSoulTypes.HORSE)));
     public static final Crop HUMAN = new Crop(MysticalMoreCrops.resource("human"), CropTier.FIVE, CropType.MOB, LazyIngredient.item("mysticalagriculture:soul_jar", MobSoulUtils.makeTag(ModMobSoulTypes.HUMAN)));
     public static final Crop LLAMA = new Crop(MysticalMoreCrops.resource("llama"), CropTier.TWO, CropType.MOB, LazyIngredient.item("mysticalagriculture:soul_jar", MobSoulUtils.makeTag(ModMobSoulTypes.LLAMA)));
-    public static final Crop MITE = new Crop(MysticalMoreCrops.resource("mite"), CropTier.THREE, CropType.MOB, LazyIngredient.item("mysticalagriculture:soul_jar", MobSoulUtils.makeTag(ModMobSoulTypes.MITE)));
-    public static final Crop SHULKER = new Crop(MysticalMoreCrops.resource("shulker"), CropTier.FIVE, CropType.MOB, LazyIngredient.item("mysticalagriculture:soul_jar", MobSoulUtils.makeTag(ModMobSoulTypes.SHULKER)));
-    public static final Crop SNIFFER = new Crop(MysticalMoreCrops.resource("sniffer"), CropTier.FIVE, CropType.MOB, LazyIngredient.item("mysticalagriculture:soul_jar", MobSoulUtils.makeTag(ModMobSoulTypes.SNIFFER)));
-    public static final Crop STRIDER = new Crop(MysticalMoreCrops.resource("strider"), CropTier.THREE, CropType.MOB, LazyIngredient.item("mysticalagriculture:soul_jar", MobSoulUtils.makeTag(ModMobSoulTypes.STRIDER)));
+    public static final Crop MITE = new Crop(MysticalMoreCrops.resource("mite"), CropTier.TWO, CropType.MOB, LazyIngredient.item("mysticalagriculture:soul_jar", MobSoulUtils.makeTag(ModMobSoulTypes.MITE)));
+    public static final Crop SHULKER = new Crop(MysticalMoreCrops.resource("shulker"), CropTier.FOUR, CropType.MOB, LazyIngredient.item("mysticalagriculture:soul_jar", MobSoulUtils.makeTag(ModMobSoulTypes.SHULKER)));
+    public static final Crop SNIFFER = new Crop(MysticalMoreCrops.resource("sniffer"), CropTier.FOUR, CropType.MOB, LazyIngredient.item("mysticalagriculture:soul_jar", MobSoulUtils.makeTag(ModMobSoulTypes.SNIFFER)));
+    public static final Crop STRIDER = new Crop(MysticalMoreCrops.resource("strider"), CropTier.TWO, CropType.MOB, LazyIngredient.item("mysticalagriculture:soul_jar", MobSoulUtils.makeTag(ModMobSoulTypes.STRIDER)));
     public static final Crop WOLF = new Crop(MysticalMoreCrops.resource("wolf"), CropTier.TWO, CropType.MOB, LazyIngredient.item("mysticalagriculture:soul_jar", MobSoulUtils.makeTag(ModMobSoulTypes.WOLF)));
     public static final Crop EVIL = new Crop(MysticalMoreCrops.resource("evil"), CropTier.THREE, CropType.MOB, LazyIngredient.item("mysticalagriculture:soul_jar", MobSoulUtils.makeTag(ModMobSoulTypes.EVIL)));
 
@@ -104,6 +104,7 @@ public final class ModCrops {
         // MobSoulTypeの定義が終わっている、または必要ないなら、これでコードの追加は完了。あとはレシピjsonファイルとアセットの追加である。
         // レシピjsonファイルの追加先は、resource/data/mysticalmorecrops/recipes フォルダ内ならどこでも構わないが、混乱を避けるために適切な場所(例えばスポーンエッグ作成レシピならspawneggフォルダ内)に置くほうが良い
         // 注意:soulのResourceLocationのnamespaceはmysticalmorecropsだが、エッセンス、種のnamespaceは"mysticalagriculture"である
+        // 注意:botany pots 互換性のためのレシピも追加すること
     }
 
     public static Crop withRequiredAnyMods(Crop crop, String... mods) {
