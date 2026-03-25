@@ -1,0 +1,42 @@
+{
+  "conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalmorecrops:dt_fuel"
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "mysticalagriculture:dt_fuel_seeds"
+  },
+  "categories": [
+    "insanium"
+  ],
+  "growthTicks": 4800,
+  "display": {
+    "type": "botanypots:aging",
+    "block": "mysticalagriculture:dt_fuel_crop"
+  },
+  "drops": [
+    {
+      "chance": 1.00,
+      "output": {
+        "item": "mysticalagriculture:dt_fuel_essence"
+      }
+    },
+    {
+      "chance": 0.01,
+      "output": {
+        "item": "mysticalagriculture:dt_fuel_seeds"
+      }
+    },
+    {
+      "chance": 0.01,
+      "output": {
+        "item": "mysticalagriculture:fertilized_essence"
+      },
+      "minRolls": 1,
+      "maxRolls": 1
+    }
+  ]
+}

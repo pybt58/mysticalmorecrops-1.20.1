@@ -1,0 +1,42 @@
+{
+  "conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalmorecrops:enchanted_golden_apple"
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "mysticalagriculture:enchanted_golden_apple_seeds"
+  },
+  "categories": [
+    "insanium"
+  ],
+  "growthTicks": 4800,
+  "display": {
+    "type": "botanypots:aging",
+    "block": "mysticalagriculture:enchanted_golden_apple_crop"
+  },
+  "drops": [
+    {
+      "chance": 1.00,
+      "output": {
+        "item": "mysticalagriculture:enchanted_golden_apple_essence"
+      }
+    },
+    {
+      "chance": 0.01,
+      "output": {
+        "item": "mysticalagriculture:enchanted_golden_apple_seeds"
+      }
+    },
+    {
+      "chance": 0.01,
+      "output": {
+        "item": "mysticalagriculture:fertilized_essence"
+      },
+      "minRolls": 1,
+      "maxRolls": 1
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalmorecrops:enriched_thermonuclear"
+    }
+  ],
+  "type": "botanypots:crop",
+  "seed": {
+    "item": "mysticalagriculture:enriched_thermonuclear_seeds"
+  },
+  "categories": [
+    "insanium"
+  ],
+  "growthTicks": 4800,
+  "display": {
+    "type": "botanypots:aging",
+    "block": "mysticalagriculture:enriched_thermonuclear_crop"
+  },
+  "drops": [
+    {
+      "chance": 1.00,
+      "output": {
+        "item": "mysticalagriculture:enriched_thermonuclear_essence"
+      }
+    },
+    {
+      "chance": 0.01,
+      "output": {
+        "item": "mysticalagriculture:enriched_thermonuclear_seeds"
+      }
+    },
+    {
+      "chance": 0.01,
+      "output": {
+        "item": "mysticalagriculture:fertilized_essence"
+      },
+      "minRolls": 1,
+      "maxRolls": 1
+    }
+  ]
+}
