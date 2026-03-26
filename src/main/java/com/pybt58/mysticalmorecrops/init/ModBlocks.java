@@ -22,6 +22,9 @@ public final class ModBlocks {
     public static final Map<String, Supplier<BlockItem>> BLOCK_ITEMS = new LinkedHashMap<>();
 
     public static final RegistryObject<Block> ENCHANTED_GOLDEN_APPLE_CRUX = register("enchanted_golden_apple_crux", () -> new BaseBlock(SoundType.STONE, 5.0F, 10.0F));
+    public static final RegistryObject<Block> PROSPERITY_CRUX = register("prosperity_crux", () -> new BaseBlock(SoundType.STONE, 5.0F, 10.0F));
+    public static final RegistryObject<Block> SUPREMIUM_CRUX = register("supremium_crux", () -> new BaseBlock(SoundType.STONE, 5.0F, 10.0F));
+
     public static final RegistryObject<Block> SUPREMIUM_CROP = registerNoItem("supremium_crop", () -> new InferiumCropBlock(ModCrops.SUPREMIUM));
 
     private static RegistryObject<Block> register(String name, Supplier<Block> block) {

@@ -24,9 +24,12 @@ public final class ModCreativeModeTabs {
 
                 output.accept(ModItems.BLANK_EGG.get());
                 if(ModList.get().isLoaded(MysticalMoreCrops.MAG_ID)) {
-                    output.accept(ModItems.BOSS_BLANK_EGG);
+                    output.accept(ModItems.BOSS_BLANK_EGG.get());
                 }
                 output.accept(ModItems.EVIL_INTENTION.get());
+
+                output.accept(ModBlocks.PROSPERITY_CRUX.get());
+                output.accept(ModBlocks.SUPREMIUM_CRUX.get());
 
                 if(ModList.get().isLoaded(MysticalMoreCrops.MAG_ID)) {
                     output.accept(ModBlocks.ENCHANTED_GOLDEN_APPLE_CRUX.get());

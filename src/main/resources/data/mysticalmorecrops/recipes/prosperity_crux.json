@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalmorecrops:prosperity"
+    }
+  ],
+  "pattern": [
+    "EAE",
+    "ASA",
+    "EAE"
+  ],
+  "key": {
+    "E": {
+      "item": "mysticalagriculture:supremium_essence"
+    },
+    "A": {
+      "item": "mysticalagriculture:prosperity_block"
+    },
+    "S": {
+      "item": "mysticalagriculture:awakened_supremium_ingot_block"
+    }
+  },
+  "result": {
+    "item": "mysticalmorecrops:prosperity_crux",
+    "count": 1
+  }
+}

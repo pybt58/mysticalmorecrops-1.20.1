@@ -22,7 +22,7 @@ public final class ModMobSoulTypes {
     // public static final MobSoulType FISH = new MobSoulType(MysticalMoreCrops.resource("fish"), FISH_IDS, "fish", 6, 12691306);
     private static final Set<ResourceLocation> ALLAY_IDS = Sets.newHashSet(new ResourceLocation("minecraft:allay"), new ResourceLocation("minecraft:vex"));
     private static final Set<ResourceLocation> AMPHIBIAN_IDS = Sets.newHashSet(new ResourceLocation("minecraft:axolotl"), new ResourceLocation("minecraft:frog"), new ResourceLocation("minecraft:tadpole"));
-    private static final Set<ResourceLocation> BAT_IDS = Sets.newHashSet(new ResourceLocation("minecraft:bat"));
+    private static final Set<ResourceLocation> BAT_IDS = Sets.newHashSet(new ResourceLocation("minecraft:bat"), new ResourceLocation("minecraft:phantom"));
     private static final Set<ResourceLocation> BEAR_IDS = Sets.newHashSet(new ResourceLocation("minecraft:panda"), new ResourceLocation("minecraft:polar_bear"));
     private static final Set<ResourceLocation> CAT_IDS = Sets.newHashSet(new ResourceLocation("minecraft:cat"), new ResourceLocation("minecraft:ocelot"));
     private static final Set<ResourceLocation> DOLPHIN_IDS = Sets.newHashSet(new ResourceLocation("minecraft:dolphin"));
@@ -36,7 +36,7 @@ public final class ModMobSoulTypes {
     private static final Set<ResourceLocation> SNIFFER_IDS = Sets.newHashSet(new ResourceLocation("minecraft:sniffer"));
     private static final Set<ResourceLocation> STRIDER_IDS = Sets.newHashSet(new ResourceLocation("minecraft:strider"));
     private static final Set<ResourceLocation> WOLF_IDS = Sets.newHashSet(new ResourceLocation("minecraft:wolf"));
-    private static final Set<ResourceLocation> EVIL_IDS = Sets.newHashSet();// 村人を倒してもHUMANは手に入らないし、普通のイリジャー系を倒してもEVILは手に入らない
+    private static final Set<ResourceLocation> EVIL_IDS = Sets.newHashSet(new ResourceLocation("minecraft:illusioner"));// 村人を倒してもHUMANは手に入らないし、普通のイリジャー系を倒してもEVILは手に入らない
 
     // ここで、併用するmodに応じてSetsは変更できる。 下の例では、"examplemod2"をmodidとするmodがロードされるなら、"examplemod2:ex2-1"を追加するようにしている
     //
@@ -91,13 +91,13 @@ public final class ModMobSoulTypes {
     private static final Set<ResourceLocation> AD_PIG_IDS = new HashSet<>(Set.of(new ResourceLocation("minecraft:hoglin")));
     private static final Set<ResourceLocation> AD_RABBIT_IDS = new HashSet<>();
     private static final Set<ResourceLocation> AD_SHEEP_IDS = new HashSet<>(Set.of(new ResourceLocation("minecraft:goat")));
-    private static final Set<ResourceLocation> AD_SKELETON_IDS = new HashSet<>();
+    private static final Set<ResourceLocation> AD_SKELETON_IDS = new HashSet<>(Set.of(new ResourceLocation("minecraft:stray")));
     private static final Set<ResourceLocation> AD_SLIME_IDS = new HashSet<>(Set.of(new ResourceLocation("minecraft:magma_cube")));
     private static final Set<ResourceLocation> AD_SPIDER_IDS = new HashSet<>();
     private static final Set<ResourceLocation> AD_SQUID_IDS = new HashSet<>(Set.of(new ResourceLocation("minecraft:glow_squid")));
     private static final Set<ResourceLocation> AD_TURTLE_IDS = new HashSet<>();
     private static final Set<ResourceLocation> AD_WITHER_IDS = new HashSet<>();
-    private static final Set<ResourceLocation> AD_ZOMBIE_IDS = new HashSet<>(Set.of(new ResourceLocation("minecraft:zombified_piglin"), new ResourceLocation("minecraft:zoglin")));
+    private static final Set<ResourceLocation> AD_ZOMBIE_IDS = new HashSet<>(Set.of(new ResourceLocation("minecraft:zombified_piglin"), new ResourceLocation("minecraft:zoglin"), new ResourceLocation("minecraft:drowned"), new ResourceLocation("minecraft:husk")));
 
     public static final Map<ResourceLocation, Set<ResourceLocation>> MODIFY_ENTITY_ADDITIONS_MAP = new HashMap<>();
     static{

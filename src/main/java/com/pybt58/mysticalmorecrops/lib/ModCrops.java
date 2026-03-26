@@ -89,8 +89,8 @@ public final class ModCrops {
     }
 
     public static void onPostRegisterCrops(ICropRegistry registry) {
-        SUPREMIUM.setCruxBlock(com.blakebr0.mysticalagriculture.init.ModBlocks.AWAKENED_SUPREMIUM_GEMSTONE_BLOCK);
-        PROSPERITY.setCruxBlock(com.blakebr0.mysticalagriculture.init.ModBlocks.AWAKENED_SUPREMIUM_INGOT_BLOCK);
+        SUPREMIUM.setCruxBlock(ModBlocks.SUPREMIUM_CRUX);
+        PROSPERITY.setCruxBlock(ModBlocks.PROSPERITY_CRUX);
 
         // ここではCropを登録した後で行う処理を書く。Mystical Agriculture ではTierとCropTypeの登録を行っているが、このmodでは専らCropのCruxの設定に使う
         // 以下は、EXAMPLE Crop の核に、ダイヤモンドブロックを指定する場合の例である

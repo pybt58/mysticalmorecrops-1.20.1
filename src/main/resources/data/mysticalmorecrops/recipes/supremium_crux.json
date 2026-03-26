@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalmorecrops:supremium"
+    }
+  ],
+  "pattern": [
+    "EAE",
+    "ASA",
+    "EAE"
+  ],
+  "key": {
+    "E": {
+      "item": "mysticalagriculture:supremium_essence"
+    },
+    "A": {
+      "item": "mysticalagriculture:supremium_seeds"
+    },
+    "S": {
+      "item": "mysticalagriculture:awakened_supremium_gemstone_block"
+    }
+  },
+  "result": {
+    "item": "mysticalmorecrops:supremium_crux",
+    "count": 1
+  }
+}
